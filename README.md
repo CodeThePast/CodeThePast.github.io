@@ -15,6 +15,5 @@ A selection of projects and ideas around techonology and programming, and their 
 
 ####  Contact me
 
-Get in touch by [email]().
-
+Get in touch by [email]().<br>
 Interested also in my archaeology twin? [Check this out](https://unior.academia.edu/OrlandoCerasuolo).
