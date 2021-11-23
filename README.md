@@ -1,4 +1,6 @@
-## This website
+## CodeThePast
+
+### This page
 
 A selection of projects and ideas around techonology and programming, and their application to archaeology and humanities.
 
