@@ -13,6 +13,6 @@ A selection of projects and ideas around techonology and programming, and their 
 [FieldTabletProejct](https://codethepast.github.io/TestPage)
 
 
-###  <h3 style="color:Black;">Contact me</h1>
+###  Contact me
 
 Interested in my archaeological career? [Check this out](https://unior.academia.edu/OrlandoCerasuolo).
