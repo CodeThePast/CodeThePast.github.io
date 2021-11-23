@@ -1,7 +1,5 @@
 ## CodeThePast
 
-### CodeThePast
-
 A selection of projects and ideas around techonology and programming, and their application to archaeology and humanities.
 
 [Linux Ubuntu on a 9 years old Chromebook](https://codethepast.github.io/TestPage)
