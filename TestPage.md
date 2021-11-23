@@ -8,7 +8,7 @@ That's a text on a test page...!
 
 Some text here.
 
-![Linux30]((https://CodeThePast.github.io/LinuxPenguinArchaeology.png)
+![Linux30](https://CodeThePast.github.io/LinuxPenguinArchaeology.png)
 
 Some other text here.
 
