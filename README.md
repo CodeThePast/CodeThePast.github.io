@@ -18,6 +18,6 @@ A selection of projects and ideas around technology and programming, and their a
 ####  Contact me
 
 Get in touch by [email]().<br>
-Interested also in my archaeological twin? [Check this out](https://unior.academia.edu/OrlandoCerasuolo).
+Also interested in my archaeological twin? [Check this out](https://unior.academia.edu/OrlandoCerasuolo).
 
 *This page is under construction.*
