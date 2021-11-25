@@ -2,20 +2,22 @@
 
 A selection of projects and ideas around technology and programming, and their application to archaeology and humanities.
 
-[Ubuntu installation](https://codethepast.github.io/TestPage) on a 9 years old Chromebook.
+[Ubuntu installation]() on a 9 years old Chromebook.
 
-[Smartwatch app](https://codethepast.github.io/TestPage) for the opensource [*PineTime*](https://wiki.pine64.org/index.php/PineTime).
+[Smartwatch app]() for the opensource [*PineTime*](https://wiki.pine64.org/index.php/PineTime).
 
-[Data Analysis](https://codethepast.github.io/TestPage) for Cultural Heritage.
+[Data Analysis]() for Cultural Heritage.
 
-[Tech museum for impaired people](https://codethepast.github.io/TestPage).
+[Tech museum for impaired people]().
 
-[GIS processing](https://codethepast.github.io/TestPage) notebook.
+[GIS processing]() notebook.
 
-[Tablet Archaeology Project](https://codethepast.github.io/TestPage) field framework.
+[Tablet Archaeology Project]() field framework.
 
 
 ####  Contact me
 
 Get in touch by [email]().<br>
 Interested also in my archaeological twin? [Check this out](https://unior.academia.edu/OrlandoCerasuolo).
+
+*This page is under construction.*
