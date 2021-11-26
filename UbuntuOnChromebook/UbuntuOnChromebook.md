@@ -24,4 +24,8 @@ Some other text here.
 
 Some other text here.
 
+![The original SSD in place](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome14.jpg)
+
+Some other text here.
+
 [< back](https://codethepast.github.io/)
