@@ -3,19 +3,19 @@
 [< back](https://codethepast.github.io/)
 
 
-![Top view](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChromebook10.pg)
+![Top view](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome10.pg)
 
 Some other text here.
 
-![Bottom view](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChromebook11.pg)
+![Bottom view](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome11.pg)
 
 Some other text here.
 
-![Laptop detail](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChromebook12.pg)
+![Laptop detail](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome12.pg)
 
 Some other text here.
 
-![Inside the laptop](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChromebook13.pg)
+![Inside the laptop](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome13.pg)
 
 Some other text here.
 
