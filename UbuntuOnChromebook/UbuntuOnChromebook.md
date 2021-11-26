@@ -8,18 +8,10 @@ Unfortunately, Some months ago Google decided to stop supporting my model. After
 
 Hoping this post could help somebody else with similar need here I describe the process and the results!
 
-## Hardware upgrade
+## The Acer C720P
 
-Differently from other models, the Acer C720P has the touchscreen and only 2GB of RAM, that unfortunately cannot be expanded. As for the disk, the laptop originally has a 32GB SSD, that is enough for a web based chromebook, but might be tight for a complete Ubuntu system. 
-
-Please note that for this model the SSD is a SATA M.2 2242 form factor type.
-
-There are several online resources that show how to change the original SSD with a new one:
-- Here a [video](https://www.youtube.com/watch?v=AZa5kWBfbWM) by *unlokia* showing how to properly open this laptop model and how to find the different hardware components.
-- Here a [video](https://www.youtube.com/watch?v=LrrL2Qy2PGI), mounting a 64GB SSD. 
-- Here a [blogpost](https://www.umpcportal.com/2014/01/how-to-upgrade-the-acer-c720-chromebook-with-an-m-2-sata-from-mydigitalsdd/) mounting a 128GB SSD.
-
-First of all you can find here the top- and bottomview of the laptop.
+It is not easy to find anymore online the full specs about the Acer C720P, but [here](https://www.laptopmag.com/reviews/laptops/acer-chromebook-c720p) you have some.
+These are the top- and bottomview of the laptop befoer opening it.
 
 ![Top view](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome10.jpg)
 
@@ -29,9 +21,37 @@ And here the picture of the sticker with the product detail (yes, made in Decemb
 
 ![Laptop detail](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome12.jpg)
 
-Some other text here.
 
+## Hardware upgrade
+
+Differently from other models, the Acer C720P has the touchscreen and only 2GB of RAM, that unfortunately cannot be expanded. As for the disk, the laptop originally has a 32GB SSD, that is enough for a web based chromebook, but might be tight for a complete Ubuntu system. 
+
+Please note that for this model the SSD is a SATA M.2 2242 form factor type.
+
+There are several online resources that show how easy is to open the laptop and change the original SSD with a new one:
+- Here a [video](https://www.youtube.com/watch?v=AZa5kWBfbWM) by *unlokia* showing how to properly open this laptop model and how to find the different hardware components.
+- Here a [video](https://www.youtube.com/watch?v=LrrL2Qy2PGI) by *Isaac* mounting a 64GB SSD. 
+- Here a [video](https://www.youtube.com/watch?v=c9rKQVtEjNc) by *Daniel Berry* mounting a 64GB SSD.
+- Here a [blogpost](https://www.umpcportal.com/2014/01/how-to-upgrade-the-acer-c720-chromebook-with-an-m-2-sata-from-mydigitalsdd/) and a [video](https://www.youtube.com/watch?v=-jOHHyJMgWk) by *Steve Paine* mounting a 128GB SSD.
+
+I provide here a view of the opened laptop.
 ![Inside the laptop](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome13.jpg)
+
+To get an idea of the architecture of the Acer C720 (the model without touchscreen and with 4GB of RAM) you can see the following image, taken from [here](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook).
+
+![C720 hardware architecture](https://samsclass.info/128/proj/c720-chromebook-annotated-innards.png)
+
+1- CPU
+2- RAM (here 4GB, mine has only 2GB)
+3- System firmware. 8MB SPI Flash.
+4- NGFF (M.2) SSD
+5- Battery enable switch
+6- Battery enable screw
+7- Write-protect screw
+8- Servo debug header
+9- NGFF (M.2) WWAN connector (probably missing on your machine)
+
+
 
 Some other text here.
 
