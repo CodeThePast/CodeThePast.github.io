@@ -1,4 +1,4 @@
-## Ubuntu on a 9 years old Chromebook.
+## Ubuntu on a 9 years old Chromebook
 
 [< back](https://codethepast.github.io/)
 
@@ -8,15 +8,16 @@ Unfortunately, Some months ago Google decided to stop supporting my model. After
 
 Hoping this post could help somebody else with similar need here I describe the process and the results!
 
-## Hardware upgrade.
+## Hardware upgrade
 
 Differently from other models, the Acer C720P has the touchscreen and only 2GB of RAM, that unfortunately cannot be expanded. As for the disk, the laptop originally has a 32GB SSD, that is enough for a web based chromebook, but might be tight for a complete Ubuntu system. 
 
-Please note that for this model the SSD is a M.2 form factor type.
+Please note that for this model the SSD is a SATA M.2 2242 form factor type.
 
 There are several online resources that show how to change the original SSD with a new one:
 - Here a [video](https://www.youtube.com/watch?v=AZa5kWBfbWM) by *unlokia* showing how to properly open this laptop model and how to find the different hardware components.
-- Here a [video](https://www.youtube.com/watch?v=LrrL2Qy2PGI), with a 64GB SSD 
+- Here a [video](https://www.youtube.com/watch?v=LrrL2Qy2PGI), mounting a 64GB SSD. 
+- Here a [blogpost](https://www.umpcportal.com/2014/01/how-to-upgrade-the-acer-c720-chromebook-with-an-m-2-sata-from-mydigitalsdd/) mounting a 128GB SSD.
 
 First of all you can find here the top- and bottomview of the laptop.
 
@@ -49,5 +50,6 @@ Focal Fossa with Crouton:
 
 ## Ubuntu as only OS
 
+For people interested in installing on this laptop model other Linux distributions I found [here](https://wiki.archlinux.org/title/Acer_C720_Chromebook#Locating_the_Write-Protect_Screw) some documentation about Arch.
 
 [< back](https://codethepast.github.io/)
