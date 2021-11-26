@@ -10,7 +10,7 @@ Hoping this post could help somebody else with similar need here I describe the 
 
 ## The Acer C720P
 
-It is not easy to find anymore online the full specs about the Acer C720P, but [here](https://www.laptopmag.com/reviews/laptops/acer-chromebook-c720p) you have some.
+It is not easy to find anymore online the full specs about the Acer C720P, but [here](https://www.laptopmag.com/reviews/laptops/acer-chromebook-c720p) you have some. Here a [post](https://liliputing.com/2014/03/acer-c720p-touchscreen-chromebook-review.html) with an extended review of the Acer C720P by *Brad Linder*.
 These are the top- and bottomview of the laptop befoer opening it.
 
 ![Top view](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome10.jpg)
@@ -35,29 +35,26 @@ There are several online resources that show how easy is to open the laptop and 
 - Here a [blogpost](https://www.umpcportal.com/2014/01/how-to-upgrade-the-acer-c720-chromebook-with-an-m-2-sata-from-mydigitalsdd/) and a [video](https://www.youtube.com/watch?v=-jOHHyJMgWk) by *Steve Paine* mounting a 128GB SSD.
 
 I provide here a view of the opened laptop.
+
 ![Inside the laptop](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome13.jpg)
 
 To get an idea of the architecture of the Acer C720 (the model without touchscreen and with 4GB of RAM) you can see the following image, taken from [here](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook).
 
 ![C720 hardware architecture](https://samsclass.info/128/proj/c720-chromebook-annotated-innards.png)
 
-1- CPU
-2- RAM (here 4GB, mine has only 2GB)
-3- System firmware. 8MB SPI Flash.
-4- NGFF (M.2) SSD
-5- Battery enable switch
-6- Battery enable screw
-7- Write-protect screw
-8- Servo debug header
-9- NGFF (M.2) WWAN connector (probably missing on your machine)
+1. CPU
+2. RAM (here 4GB, mine has only 2GB)
+3. System firmware. 8MB SPI Flash.
+4. NGFF (M.2) SSD
+5. Battery enable switch
+6. Battery enable screw
+7. Write-protect screw
+8. Servo debug header
+9. NGFF (M.2) WWAN connector (probably missing on your machine)
 
-
-
-Some other text here.
 
 ![The original SSD in place](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome14.jpg)
 
-Some other text here.
 
 ## Ubuntu byside of Chrome OS (with Crouton)
 
@@ -67,9 +64,28 @@ How to operate with Chromium in Developer mode:
 Focal Fossa with Crouton:
 - https://github.com/dnschneid/crouton/issues/4265
 - https://bleepcoder.com/crouton/602619482/focal-fossa
+- Here a [post](https://liliputing.com/2014/03/acer-c720p-touchscreen-chromebook-review.html) by *Brad Linder*.
+
 
 ## Ubuntu as only OS
 
-For people interested in installing on this laptop model other Linux distributions I found [here](https://wiki.archlinux.org/title/Acer_C720_Chromebook#Locating_the_Write-Protect_Screw) some documentation about Arch.
+- Here a extended [blogpost](https://samsclass.info/128/proj/chromebooks3.htm) by *Sam Bowne* explaining the all process of installation.
+- Here a [blogpost](https://dbtechreviews.com/2018/09/how-to-install-ubuntu-on-chromebook-and-remove-chromeos/) and a [video](https://www.youtube.com/watch?v=AxsckwmRhfw) by *David Burgess*.
+- Here a [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen* using ChrUbuntu or Bodhi Linux.
+
+### You need:
+1, usb with Ubuntu
+2. usb with recovery ChromeOS
+
+
+## Other Linux distros
+
+For people interested in installing on this laptop model other Linux distributions I found [here](https://wiki.archlinux.org/title/Acer_C720_Chromebook#Locating_the_Write-Protect_Screw) some documentation about Arch, and [here](http://jeffhoogland.blogspot.com/2014/01/) about Bodhi Linux.
+
+
+## To Restore the original ChromeOS
+
+- Here a [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen* (check the last section).
+
 
 [< back](https://codethepast.github.io/)
