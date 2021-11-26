@@ -64,7 +64,7 @@ How to operate with Chromium in Developer mode:
 Focal Fossa with Crouton:
 - https://github.com/dnschneid/crouton/issues/4265
 - https://bleepcoder.com/crouton/602619482/focal-fossa
-- Here a [post](https://liliputing.com/2014/03/acer-c720p-touchscreen-chromebook-review.html) by *Brad Linder*.
+- Here a [post](https://liliputing.com/2014/03/acer-c720p-touchscreen-chromebook-review.html) and a [video](https://www.youtube.com/watch?v=bYGAr_OBBoo) by *Brad Linder*.
 
 
 ## Ubuntu as only OS
@@ -74,13 +74,13 @@ Focal Fossa with Crouton:
 - Here a [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen* using ChrUbuntu or Bodhi Linux.
 
 ### You need:
-1, usb with Ubuntu
+1. usb with Ubuntu
 2. usb with recovery ChromeOS
 
 
 ## Other Linux distros
 
-For people interested in installing on this laptop model other Linux distributions I found [here](https://wiki.archlinux.org/title/Acer_C720_Chromebook#Locating_the_Write-Protect_Screw) some documentation about Arch, and [here](http://jeffhoogland.blogspot.com/2014/01/) about Bodhi Linux.
+For people interested in installing on this laptop model other Linux distributions I found [here](https://wiki.archlinux.org/title/Acer_C720_Chromebook#Locating_the_Write-Protect_Screw) some documentation about Arch, [here](http://jeffhoogland.blogspot.com/2014/01/) about Bodhi Linux, and [here](https://www.youtube.com/watch?v=dq44cHvxTXI&t=327s) about Mint.
 
 
 ## To Restore the original ChromeOS
