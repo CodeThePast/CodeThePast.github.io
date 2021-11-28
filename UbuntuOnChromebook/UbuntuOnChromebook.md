@@ -23,8 +23,16 @@ And here the picture of the sticker with the product's detail (yes, it was made 
 ## Hardware upgrade
 
 Differently from other models, the Acer C720P has the touchscreen and only 2GB of RAM, that unfortunately cannot be expanded. As for the disk, the laptop originally has a 32GB SSD, that is enough for a web based chromebook, but might be tight for a complete Ubuntu system. 
+**NOTE: You will invalidate your warranty when you open your laptop and change the SSD. You’re on your own if you break anything.**
 
-Please note that for this model the SSD is a SATA M.2 2242 form factor type.
+### You need:
+1. a drive to backup your documents;
+2. a 4GB SD card, to save a recovery of Chrome OS - in case you will want to reinstall the original OS.
+3. a small cross-head screwdriver;
+4. a new, larger SSD. 64GB and 128GB have been tested and work well. Please note that for this model the SSD is a SATA M.2 2242 form factor type.
+
+Please consider backing up your documents before starting this operation as they will not be retained during the operation (or better, they will remain in your old SSD, but not authomatically copied to the new one).
+Furthermore, you may want to cerate a recovery of your Chrome OS. Until mid 2019 you could download the OS image from your chromebook by typing chrome://imageburner into the adrress bar of the browser. Now you need to use the (Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) that you can download from the Chrome Web Store. May issues and delays are reported for this procedure, but as per today this is the only way to save an image of the OS. You wil be asked to enter your device's model number (mine is PEPPY E6A-O3G-A9V)  
 
 There are several online resources that show how easy is to open the laptop and change the original SSD with a new one:
 - Here a [video](https://www.youtube.com/watch?v=AZa5kWBfbWM) by *unlokia* showing how to properly open this laptop model and how to find the different hardware components.
