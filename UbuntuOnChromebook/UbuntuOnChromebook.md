@@ -22,7 +22,7 @@ And here the picture of the sticker with the product's detail (yes, it was made 
 ![Laptop detail](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome12.jpg)
 
 
-## Back-up your data and create a recovery for the Chrome OS (just in case...)
+## Back-up your data and create a recovery for the ChromeOS (just in case...)
 
 ### You need:
 1. a drive to backup your documents;
@@ -41,12 +41,13 @@ Run the script with root privileges with the following command:
 ```
 $ sudo bash linux_recovery.sh
 ```
-Follow the on-screen instructions to create recovery media. You will be asked to enter your device's HD model number (or HWID). How to find your HD model number? type chrome://system in the chrome browser and search for the HWID (mine model number for example is PEPPY E6A-O3G-A9V) You will have to insert the recovery SD card or USB pendrive (that will be reformatted authomaticaly). This may teake several minutes.
+Follow the on-screen instructions to create recovery media. You will be asked to enter your device's HD model number (or HWID). How to find your HD model number? type chrome://system in the chrome browser and search for the HWID (mine model number for example is PEPPY E6A-O3G-A9V). You will have to insert the recovery SD card or USB pendrive (that will be reformatted authomaticaly). This may take several minutes.
 
 
 ## Hardware upgrade
 
-Differently from other models, the Acer C720P has the touchscreen and only 2GB of RAM, that unfortunately cannot be expanded. As for the disk, the laptop originally has a 32GB SSD, that is enough for a web based Chromebook, but might be tight for a complete Ubuntu system. 
+Differently from other models, the Acer C720P has the touchscreen and only 2GB of RAM, that unfortunately cannot be expanded. As for the disk, the laptop originally has a 32GB SSD, that is enough for a web based Chromebook, but might be tight for a complete Ubuntu system. But we can open the laptop and change the SSD with another one.
+
 **NOTE: You will invalidate your warranty when you open your laptop and change the SSD. You’re on your own if you break anything.**
 
 ### You need:
@@ -59,7 +60,7 @@ There are several online resources that show how easy is to open the laptop and 
 - Here a [video](https://www.youtube.com/watch?v=c9rKQVtEjNc) by *Daniel Berry* mounting a 64GB SSD.
 - Here a [blogpost](https://www.umpcportal.com/2014/01/how-to-upgrade-the-acer-c720-chromebook-with-an-m-2-sata-from-mydigitalsdd/) and a [video](https://www.youtube.com/watch?v=-jOHHyJMgWk) by *Steve Paine* mounting a 128GB SSD.
 
-In order to open the laptop you need to turn it off and to remove 13 screws placed on the bottom side (Note: one of the screw is hidden under the round "seal" sticker - If you mind, once you’ve broken that sticker you don’t have a warranty anymore!). Then gently insert a thin plastic tool/point or a card in the gap between the bottom side and the keyboard side to completely free the bottom side (better to start from the hinges, anyway I suggest to watch the linked videos). 
+In order to open the laptop you need to turn it off and to remove 13 screws placed on the bottom side (Note: one of the screw is hidden under the round "seal" sticker - If you mind, once you’ve broken that sticker you don’t have a warranty anymore!). Then gently insert a thin plastic tool/point or a card in the gap between the bottom side and the keyboard side to completely free the bottom side (better to start from the hinges, anyway I suggest to watch videos the linked above).
 
 I provide here a view of the opened laptop.
 
@@ -75,15 +76,16 @@ This is the detail of the original 32GB SSD in place.
 
 ![The original SSD in place](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome14.jpg)
 
-It is very easy to change the SSD: just remove the single screw, carefully slide the SSD out, gently put the new SSD in the slot (paying attention to respect the direction of the card and do not touch the contacts as the skin acids are dangerous for the electronic contacts).
-Push the bottom side back in its position (better to start from the rear) and screw back all the 13 screws.
+It is very easy to change the SSD: just remove the single screw keeping the memory in place, carefully slide the SSD out, gently put the new SSD in the slot (paying attention to respect the direction of the card and to not touch the contacts as the skin acids are dangerous for the electronic contacts) and put in place again the screw.
+Close the bottom side back in its position (better to start from the rear) and screw all the 13 screws.
 
-You can now turn the Chromebook on. You will see an error message. If you insert the recovery SD card or USB pendrive the recovery will start automatically. Just wait for the install to complete and you’re done. If the restore fails you will have to doublecheck (and in case download again) the recovery drive again.
+You can now turn the Chromebook on. You will see an error message. If you insert the recovery SD card or USB pendrive the recovery will start automatically. Just wait for the install to complete and you’re done. If the restore fails you will have to doublecheck (and in case download again) the recovery drive.
 
 
 ## Ubuntu side-by-side ChromeOS (with Crouton)
 
-Instead of erasing your ChromeOS and installing a linux based OS you can easily run a Debian-based Linux side-by-side ChromeOs. To do that we can run a script called **Crouton** which lets you uickly switch from one environment to the other just by pressing a few keyboard buttons.
+Instead of erasing your ChromeOS and installing a linux based OS you can easily run a Debian-based Linux side-by-side ChromeOs. To do that we can run a script called [**Crouton**](https://github.com/dnschneid/crouton) which lets you quickly switch from one environment to the other just by pressing a few keyboard buttons.
+
 Note: there is also another project [**ChrUbuntu**](https://github.com/iantrich/ChrUbuntu-Guides/blob/8d7e5ed1495c9f10fd6b542c960f53fe101e35b9/Guides/Installing%20ChrUbuntu.md) that allows to install Ubuntu on the internal storage (or on a USB pendrive) and run a dualboot with ChromeOS; for this see the [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen*.
 
 With Crouton, your Linux OS is sharing the kernel with ChromeOS. That means all of the hardware including the WiFi and touchscreen will work perfectly in both the OS. 
@@ -92,12 +94,12 @@ To run Crouton you just need to [enter developer mode](https://www.chromium.org/
 
 For a discussion of Crouton on Chromebook you can see this [post](https://liliputing.com/2014/03/acer-c720p-touchscreen-chromebook-review.html) and the [video](https://www.youtube.com/watch?v=bYGAr_OBBoo) by *Brad Linder*.
 
-First, you have to download the latest release from [here](https://goo.gl/fd3zc). 
-Then, open a shell in your Chromebook by pressing Ctrl + Alt + T; type "shell" and hit enter. Execute the installer executable with 
+First, you have to download the latest release of Crouton from [here](https://goo.gl/fd3zc). 
+Then, open a shell in your Chromebook by pressing Ctrl + Alt + T; type "shell" and hit enter. Execute the installer executable with:
 ```
 $ sudo install -Dt /usr/local/bin -m 755 ~/Downloads/crouton
 ```
-To see the help text launch it with 
+To see the help text launch it with:
 ```
 $ sudo crouton
 ```
@@ -109,21 +111,23 @@ For example, to run the ligth weight Xubuntu distribution (Xfce, Ubuntu 16.04 LT
 ```
 $ sudo crouton -t xfce
 ```
-Once the installation is over you can run Xfce and ump into the desktop environment by typing:
+Once the installation is over you can run Xfce and jump into the desktop environment by typing:
 ```
 $ sudo enter-chroot startxfce4
 ```
-or with the shortcut, 
+or with the shortcut:
 ```
 $ sudo startxfce4
 ```
-Here you will find all the softawares shipped with the distro or install more (through the Ubuntu Software Center). Online there are a few resources related to arguments you can add to the installing command string or about installing more recent Ubuntu releases (ie. Focal Fossa see [here](https://github.com/dnschneid/crouton/issues/4265) or [here](https://bleepcoder.com/crouton/602619482/focal-fossa)).
+In the installed Xfce you will find all the softwares shipped with the distro and you will be able to install more application (using the Ubuntu Software Center). 
 
-If you want to switch to the ChromeOS just press Ctrl + Alt + Shift + Back, while pressing Ctrl + Alt + Shift + Forward will bring you to your running Linux distribution. To exit it, just log out of Xfce, or type "exit in the Chrome terminal.
+Online there are a few resources showing some of the arguments you can add to the installing command string or discussing how to intall more recent Ubuntu releases (ie. for Focal Fossa see [here](https://github.com/dnschneid/crouton/issues/4265) or [here](https://bleepcoder.com/crouton/602619482/focal-fossa)).
+
+While using Crouton, if you want to switch to the ChromeOS just press Ctrl + Alt + Shift + Back, while pressing Ctrl + Alt + Shift + Forward will bring you to your running Linux distribution. To exit it, just log out of Xfce or type "exit" in the Chrome terminal.
 
 Remember that when you exit the developer mode the Chromebook will wipe all your data and return to its factory settings.
 
-In the Crouton GitHub page there are more details for more advanced operations. Only remember that if you want to delete Crouton you have to type 
+In the Crouton GitHub page there are more details for more advanced operations. Only remember that if you want to delete Crouton you have to type:
 ```
 $ sudo edit-chroot -d evilchroot
 ```
@@ -136,29 +140,30 @@ $ sudo delete-chroot evilchroot
 ## Remove ChromeOS and install Ubuntu
 
 If you don't want to use ChromeOS at all, you can replace the OS entirely with Ubuntu (or another operating system). It is a bit more tricky, but doable.
+
 **Note that the touch screeen might not function properly (or at all)** or that you have to jump through some hoops in order to get it work.
 
-There are a feww online resources that can help you in the process:
-- Here a extended [blogpost](https://samsclass.info/128/proj/chromebooks3.htm) by *Sam Bowne* explaining the all process of installation of Ubuntu 15.04.
-- Here a [blogpost](https://dbtechreviews.com/2018/09/how-to-install-ubuntu-on-chromebook-and-remove-chromeos/) and a [video](https://www.youtube.com/watch?v=AxsckwmRhfw) by *David Burgess* using Ubuntu 18.04.
+There are a few online resources that can help you in the process, for example:
+- An extended [blogpost](https://samsclass.info/128/proj/chromebooks3.htm) by *Sam Bowne* explaining the all process of installation of Ubuntu 15.04.
+- A [blogpost](https://dbtechreviews.com/2018/09/how-to-install-ubuntu-on-chromebook-and-remove-chromeos/) and a [video](https://www.youtube.com/watch?v=AxsckwmRhfw) by *David Burgess* using Ubuntu 18.04.
 
 ### You need:
 1. a small cross-head screwdriver;
-2. a bootable Ubuntu on a USB pendrive (4GB or more). See instructions [here](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview).
+2. a bootable Ubuntu on a USB pendrive (4GB or more). To create it see instructions [here](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview).
 
-The process is as follows. First (*but in some resources this passage is not mentioned*), you have to open your laptop (see section above), remove the "write-protection" screw (n. 7 in the image shown above), and close the laptop again.
+The process is as follows. First (*but in some online resources this passage is not mentioned*), you have to open your laptop (see section above), remove the "write-protection" screw (n. 7 in the image shown above), and close the laptop again.
 
 Power on your Chromebook and enter the developer mode by pressing Esc + Refresh, and taping the Power Button. This will wipe out your memory and restart the system with an error message saying "Chrome OS is missing or damaged".
 
 Press Ctrl + D, release and then press Enter when prompted the message "To turn OS verification OFF, press ENTER". 
 
-Do not press the space. After some 20 seconds you will hear a beeps and get a message saying "Your system is transitioning to Developer Mode." (there is a progress bar on the topleft of the page). After some 5 minutes, the "OS Verification is OFF" message will be reprompted together with three beeps, and the Chromebook will restart.
+Do not press the space. After some 20 seconds you will hear a beep and get a message saying "Your system is transitioning to Developer Mode." After some 5 minutes (there is a progress bar on the topleft of the page), the "OS Verification is OFF" message will be reprompted together with three beeps, and the Chromebook will restart.
 
 It will show again "OS verification is OFF". Press Ctrl+D to start ChromeOS.
 
-> **2018 alternative**: Modify the Chromebooks BIOS: Turn the Chromebook on and press Ctrl + D to bypass the screen with the red exclamation mark. Your Chromebook is reset to factory settings so you will need to go through the Chrome OS setup again. Log in again (or "use as a guest"). Press Ctrl + Alt + T to bring up a terminal window tab. Type shell and press Enter. Type this: cd;bash <(curl https://johnlewis.ie/flash_cb_fw.sh), then press enter. Choose the option to Modify my Chromebook’s RW_LEGACY slot (that should be option 1), press enter and follow the on-screen instructions (ie. retype a sentence from the screen). At the end shut off the Chromebook, power on again and press CTRL + D.
+> **2018 alternative**: Modify the Chromebook BIOS: Turn the Chromebook on and press Ctrl + D to bypass the screen with the red exclamation mark. Your Chromebook is reset to factory settings so you will need to go through the ChromeOS setup again. Log in again (or "use as a guest"). Press Ctrl + Alt + T to bring up a terminal window tab. Type shell and press Enter. Type this: cd;bash <(curl https://johnlewis.ie/flash_cb_fw.sh), then press enter. Choose the option to Modify my Chromebook’s RW_LEGACY slot (that should be option 1), press enter and follow the on-screen instructions (ie. retype a sentence from the screen). At the end shut off the Chromebook, power on again and press CTRL + D.
 
-To Enable Developer BIOS and USB Boot, **do NOT log in** to ChromeOS. Press CTRL + ALT + Forward, log in as "chronos" (ust that, without any password).
+To Enable Developer BIOS and USB Boot, **do NOT log in** to ChromeOS. Press CTRL + ALT + Forward, log in as "chronos" (just that, without any password).
 
 Execute the following commands:
 ```
@@ -168,7 +173,7 @@ $ sudo crossystem dev_boot_legacy=1
 $ sudo /usr/share/vboot/bin/set_gbb_flags.sh 0x489
 ```
 
-This will flash the BIOS to enable SeaBIOS, which allows you to boot from USB. (Now on startup, if you press Ctrl + L, you will get the BIOS screen instead of Chrome OS.)
+This will flash the BIOS to enable SeaBIOS, which allows you to boot from USB. (From now on, when booting, if you press Ctrl + L, you will get the BIOS screen instead of ChromeOS.)
 
 Hold down the power button (or type "sudo poweroff") to turn the Chromebook off.
 
@@ -176,17 +181,18 @@ Insert the Ubuntu bootable USB pendrive and turn the power on again.
 
 The prompt will say "SeaBIOS" (if you don't get the BIOS then press CTRL + L) and "Press ESC for boot menu", so press Esc. 
 
-Press the number corresponding to your bootable USB. For Ubuntu should be called "Live Linux USB Drive" (there might be some other options that belongs to different partitions of te bootable usb), while the eMMC should be the Chromebooks internal HD. If there are problems you can type "help" at the boot: and access the Installation System for Ubuntu, then press enter.
+Press the number corresponding to your bootable USB. For Ubuntu should be called "Live Linux USB Drive" (there might be some other options that belong to different partitions of the bootable usb), while the eMMC should be the Chromebooks internal HD. If there are problems you can type "help" at the boot: so to access the Installation System for Ubuntu, then press enter.
 
-Now Ubuntu live desktop will boot, and you will click on the icon to install Ubuntu. At the "Welcome" window, select "English" and "install Ubuntu". At the "Wireless" box, accept the default selection of "I don't want to connect..." and click Continue or connect to a wifi in order to download updates. Accept the default selections and click Continue at the "Preparing to install Ubuntu" screen.
+Now Ubuntu live desktop will boot. From the desktop you can click the install icon to finalize Ubuntu. At the "Welcome" window, select the language and "install Ubuntu". At the "Wireless" box, accept the default selection of "I don't want to connect..." and click Continue, or connect to a wifi in order to download more recent updates. Accept the default selections and click Continue at the "Preparing to install Ubuntu" screen.
+
 When the "Installation type" box appears, click the "Erase disk and install Ubuntu" button. Click "Install Now".
 
-After a minute or so, a box ask "Write the changes to disks?". Click Continue. Then will ask for your timezone, select your location and click Continue. In the "Keyboard layout" box, accept the default of "English (US)" and click Continue. In the "Who are you?" box, enter account information and password and click Continue.
+After a minute or so, a box will ask "Write the changes to disks?". Click Continue. Then select your timezone and click Continue. Set the "Keyboard layout" and click Continue. In the "Who are you?" box, enter your (new) account information and password and click Continue.
 
-After 5 to 10 minutes you will be asked to remove the installation media. Remove the USB pendrive and press Enter.
+After 5 to 10 minutes you will be asked to remove the installation pendrive and press Enter.
 
 When the machine restarts, press Esc and select option 1 (the only available) and you will finally have Ubuntu! 
-(if the chrome esclamtion mark page is shown again, press CTRL + D, or CTRL + L > scape > 1 and repeat as before, it should work). 
+(if the ChromeOS page with the red esclamation mark appears again, press CTRL + D, or CTRL + L > scape > 1 and repeat as before, it should work). 
 
 
 ## Other Linux distros
@@ -199,17 +205,18 @@ For people interested in installing on this laptop model other Linux distributio
 
 ## To Restore the original ChromeOS
 
-At the end of this experiemtn you may want to restore the original ChromeOS to your Chromebook, here is how you can do it.
-Remember that if you upgraded the SSD, you will have still the original ChromeOS on the old SSD, therefore you can consider just to switch hard disk!
+At the end of this experiment you may want to restore the original ChromeOS to your Chromebook, here is how you can do it.
 
-For resources about restoring the original ChromeOs please visit the relative [Chromebook help page](https://support.google.com/chromebook/answer/1080595?hl=en#zippy=%2Cuse-a-linux-computer%2Cstep-download-a-new-copy-of-the-os%2Cstep-enter-recovery-mode). You can also check this [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen* (look at the last section).
+Remember that if you upgraded the SSD, you will have still the original ChromeOS on the old SSD, therefore you can consider just to switch hard disk instead of reinstalling the OS!
+
+For resources about restoring the original ChromeOs please visit the relative [Chromebook help page](https://support.google.com/chromebook/answer/1080595?hl=en#zippy=%2Cuse-a-linux-computer%2Cstep-download-a-new-copy-of-the-os%2Cstep-enter-recovery-mode). You can also check at the end of this [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen*.
 
 ### You need:
-1. SD card or usb drive with recovery ChromeOS (that you made previously)
+1. SD card or usb drive with recovery ChromeOS (that you made previously).
 
-Remove every device connected to your Chromebook (such as a mouse or external hard drive) and be sure to have enpugh power in your laptop battery (or to be coonnected to the power soklet).
+Remove every device connected to your Chromebook (such as a mouse or external hard drive) and be sure to have enough power in your laptop battery (or to be connected to the power socklet).
 
-**Enter the Chromebook recovery mode**: Press and hold Esc + Refresh, then press Power. Let go of Power. When a message shows on the screen, let go of the other keys. (On some Chromebook models: Press and hold Esc + Maximize, then press and release Power.)
+**Enter the Chromebook recovery mode**: Press and hold Esc + Refresh, then tap the Power button. When a message shows on the screen, let go of the other keys. (On some Chromebook models: Press and hold Esc + Maximize, then press and release Power.)
 
 You should see one of these messages: "ChromeOS is missing or damaged. Please insert a recovery USB stick or SD card." or "Please insert a recovery USB stick or SD card." (BTW, at the bottom of the page you can also see the HWID of your model).
 
@@ -220,6 +227,7 @@ Insert the USB flash drive or SD card that you used to create recovery media. Yo
 ![Recovery Mode checking](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome16.jpg)
 
 When the recovery is completed you will be asked to remove the recovery media (ie. the SD card or the USB pendrive you used). Afterwards, the system will restart automatically.
+
 Here it is your Chromebook is back to its (not supported) fresh installation!
 
 [< back](https://codethepast.github.io/)
