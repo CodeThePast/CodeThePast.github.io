@@ -114,7 +114,7 @@ or with the shortcut,
 ```
 $ sudo startxfce4
 ```
-Here you will find all the softawares shipped with the distro or install more (through the Ubuntu Software Center). Online there are a few resources related to arguments you can add to the installing command string or about installing more recent Ubuntu releases (ie. Focal Fossa see [here](https://github.com/dnschneid/crouton/issues/4265) or [here](https://bleepcoder.com/crouton/602619482/focal-fossa).
+Here you will find all the softawares shipped with the distro or install more (through the Ubuntu Software Center). Online there are a few resources related to arguments you can add to the installing command string or about installing more recent Ubuntu releases (ie. Focal Fossa see [here](https://github.com/dnschneid/crouton/issues/4265) or [here](https://bleepcoder.com/crouton/602619482/focal-fossa)).
 
 If you want to switch to the ChromeOS just press Ctrl + Alt + Shift + Back, while pressing Ctrl + Alt + Shift + Forward will bring you to your running Linux distribution. To exit it, just log out of Xfce, or type "exit in the Chrome terminal.
 
@@ -130,19 +130,21 @@ $ sudo delete-chroot evilchroot
 ```
 
 
-## Ubuntu as only OS
+## Remove ChromeOS and install Ubuntu
 
-If you’d rather not use ChromeOS at all, you can enter developer mode and then replace the operating system entirely with Ubuntu or another operating system — you just may have to jump through some hoops in order to get the touchscreen to work.
+If you don't want to use ChromeOS at all, you can replace the OS entirely with Ubuntu (or another operating system). It is a bit more tricky, but doable.
+Note that the touch screeen might not function properly (or at all) or that you have to jump through some hoops in order to get it work.
 
-Remove the "write-protection" screw (n. 7 in the image shown above).
-
+There are a feww online resources that can help you in the process:
 - Here a extended [blogpost](https://samsclass.info/128/proj/chromebooks3.htm) by *Sam Bowne* explaining the all process of installation.
 - Here a [blogpost](https://dbtechreviews.com/2018/09/how-to-install-ubuntu-on-chromebook-and-remove-chromeos/) and a [video](https://www.youtube.com/watch?v=AxsckwmRhfw) by *David Burgess*.
 - Here a [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen* using ChrUbuntu or Bodhi Linux.
 
 ### You need:
-1. usb with Ubuntu
-2. usb with recovery ChromeOS
+1. a small cross-head screwdriver;
+2. usb drive with Ubuntu.
+
+The process is a s follows. First, you have to open your laptop (see section above) and remove the "write-protection" screw (n. 7 in the image shown above).
 
 
 ## Other Linux distros
