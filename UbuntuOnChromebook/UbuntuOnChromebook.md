@@ -146,15 +146,17 @@ There are a feww online resources that can help you in the process:
 1. a small cross-head screwdriver;
 2. a bootable Ubuntu on a usb drive (4GB or more). See instructions [here](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview).
 
-The process is a s follows. First, you have to open your laptop (see section above), remove the "write-protection" screw (n. 7 in the image shown above), and close the laptop again.
+The process is as follows. First (*but in some resources this passage is not mentioned*), you have to open your laptop (see section above), remove the "write-protection" screw (n. 7 in the image shown above), and close the laptop again.
 
-Power on your Chromebook and enter the developer mode  by pressing Esc + Refresh + Power Button. This will restart the system with an error message saying "Chrome OS is missing or damaged".
+Power on your Chromebook and enter the developer mode by pressing Esc + Refresh + Power Button. This will wipe out your memory and restart the system with an error message saying "Chrome OS is missing or damaged".
 
 Press Ctrl + D, release and then press Enter when prompted tthe message "To turn OS verification OFF, press ENTER". 
 
 After some 20 seconds you will hear a beeps and get a message saying "Your system is transitioning to Developer Mode." After some 5 minutes, the "OS Verification is OFF" message will be reprompted together with three beeps, and the Chromebook will restart.
 
 It will show again "OS verification is OFF". Press Ctrl+D to start ChromeOS.
+
+> **2018 alternative**: Modify the Chromebooks BIOS: Turn the Chromebook on and press Ctrl + D to bypass the screen with the red exclamation mark. Your Chromebook is reset to factory settings so you will need to go through the Chrome OS setup again. Press Ctrl + Alt + T to bring up a terminal window tab. Type shell and press Enter. Type this: cd;bash <(curl https://johnlewis.ie/flash_cb_fw.sh). Choose the option to Modify my Chromebook’s RW_LEGACY slot and follow the on-screen instructions.
 
 To Enable Developer BIOS and USB Boot, **do NOT log in** to ChromeOS.
 
@@ -167,15 +169,16 @@ $ sudo crossystem dev_boot_usb=1
 $ sudo crossystem dev_boot_legacy=1
 $ sudo /usr/share/vboot/bin/set_gbb_flags.sh 0x489
 ```
-This will flash the BIOS to enable SeaBIOS, which allows you to boot from USB.
 
-Hold down the power button to turn the Chromebook off.
+This will flash the BIOS to enable SeaBIOS, which allows you to boot from USB. (Now on startup, if you press Ctrl + L, you will get the BIOS screen instead of Chrome OS.)
+
+Hold down the power button (or type "sudo poweroff") to turn the Chromebook off.
 
 Insert the Ubuntu bootable USB drive and turn the power on again.
 
-The prompt will say "SeaBIOS" and "Press ESC for boot menu". Press Esc.
+The prompt will say "SeaBIOS" and "Press ESC for boot menu". Press Esc. If you don't get the BIOS then press CTRL + L. 
 
-Press the number corresponding to your bootable USB.
+Press the number corresponding to your bootable USB (for Ubuntu should be called "Live Linux USB Drive", while the eMMC should be the Chromebooks internal HD).
 
 At the "Welcome" window, select "English" and "install Ubuntu". At the "Wireless" box, accept the default selection of "I don't want to connect..." and click Continue. Accept the default selections and click Continue at the "Preparing to install Ubuntu" screen.
 When the "Installation type" box appears, click the "Erase disk and install Ubuntu" button. Click "Install Now".
