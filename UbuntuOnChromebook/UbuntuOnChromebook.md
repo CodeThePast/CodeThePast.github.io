@@ -148,19 +148,17 @@ There are a feww online resources that can help you in the process:
 
 The process is as follows. First (*but in some resources this passage is not mentioned*), you have to open your laptop (see section above), remove the "write-protection" screw (n. 7 in the image shown above), and close the laptop again.
 
-Power on your Chromebook and enter the developer mode by pressing Esc + Refresh + Power Button. This will wipe out your memory and restart the system with an error message saying "Chrome OS is missing or damaged".
+Power on your Chromebook and enter the developer mode by pressing Esc + Refresh, and taping the Power Button. This will wipe out your memory and restart the system with an error message saying "Chrome OS is missing or damaged".
 
-Press Ctrl + D, release and then press Enter when prompted tthe message "To turn OS verification OFF, press ENTER". 
+Press Ctrl + D, release and then press Enter when prompted the message "To turn OS verification OFF, press ENTER". 
 
-After some 20 seconds you will hear a beeps and get a message saying "Your system is transitioning to Developer Mode." After some 5 minutes, the "OS Verification is OFF" message will be reprompted together with three beeps, and the Chromebook will restart.
+Do not press the space. After some 20 seconds you will hear a beeps and get a message saying "Your system is transitioning to Developer Mode." (there is a progress bar on the topleft of the page). After some 5 minutes, the "OS Verification is OFF" message will be reprompted together with three beeps, and the Chromebook will restart.
 
 It will show again "OS verification is OFF". Press Ctrl+D to start ChromeOS.
 
-> **2018 alternative**: Modify the Chromebooks BIOS: Turn the Chromebook on and press Ctrl + D to bypass the screen with the red exclamation mark. Your Chromebook is reset to factory settings so you will need to go through the Chrome OS setup again. Press Ctrl + Alt + T to bring up a terminal window tab. Type shell and press Enter. Type this: cd;bash <(curl https://johnlewis.ie/flash_cb_fw.sh). Choose the option to Modify my Chromebook’s RW_LEGACY slot and follow the on-screen instructions.
+> **2018 alternative**: Modify the Chromebooks BIOS: Turn the Chromebook on and press Ctrl + D to bypass the screen with the red exclamation mark. Your Chromebook is reset to factory settings so you will need to go through the Chrome OS setup again. Log in again (or "use as a guest"). Press Ctrl + Alt + T to bring up a terminal window tab. Type shell and press Enter. Type this: cd;bash <(curl https://johnlewis.ie/flash_cb_fw.sh), then press enter. Choose the option to Modify my Chromebook’s RW_LEGACY slot (that should be option 1), press enter and follow the on-screen instructions (ie. retype a sentence from the screen). At the end shut off the chromebook, power on again and press CTRL + D.
 
-To Enable Developer BIOS and USB Boot, **do NOT log in** to ChromeOS.
-
-Press CTRL + ALT + Forward, log in as "chronos", without any password.
+To Enable Developer BIOS and USB Boot, **do NOT log in** to ChromeOS. Press CTRL + ALT + Forward, log in as "chronos" (ust that, without any password).
 
 Execute the following commands:
 ```
@@ -176,18 +174,19 @@ Hold down the power button (or type "sudo poweroff") to turn the Chromebook off.
 
 Insert the Ubuntu bootable USB drive and turn the power on again.
 
-The prompt will say "SeaBIOS" and "Press ESC for boot menu". Press Esc. If you don't get the BIOS then press CTRL + L. 
+The prompt will say "SeaBIOS" (if you don't get the BIOS then press CTRL + L) and "Press ESC for boot menu", so press Esc. 
 
-Press the number corresponding to your bootable USB (for Ubuntu should be called "Live Linux USB Drive", while the eMMC should be the Chromebooks internal HD).
+Press the number corresponding to your bootable USB. For Ubuntu should be called "Live Linux USB Drive" (there might be some other options that belongs to different partitions of te bootable usb), while the eMMC should be the Chromebooks internal HD. If there are problems you can type "help" at the boot: and access the Installation System for Ubuntu, then press enter.
 
-At the "Welcome" window, select "English" and "install Ubuntu". At the "Wireless" box, accept the default selection of "I don't want to connect..." and click Continue. Accept the default selections and click Continue at the "Preparing to install Ubuntu" screen.
+Now Ubuntu live desktop will boot, and you will click on the icon to install Ubuntu. At the "Welcome" window, select "English" and "install Ubuntu". At the "Wireless" box, accept the default selection of "I don't want to connect..." and click Continue or connect to a wifi in order to download updates. Accept the default selections and click Continue at the "Preparing to install Ubuntu" screen.
 When the "Installation type" box appears, click the "Erase disk and install Ubuntu" button. Click "Install Now".
 
-After a minute or so, a box ask "Write the changes to disks?". Click Continue. In the "Where are you?" box, select your location and click Continue. In the "Keyboard layout" box, accept the default of "English (US)" and click Continue. In the "Who are you?" box, enter account information and click Continue.
+After a minute or so, a box ask "Write the changes to disks?". Click Continue. Then will ask for your timezone, select your location and click Continue. In the "Keyboard layout" box, accept the default of "English (US)" and click Continue. In the "Who are you?" box, enter account information and password and click Continue.
 
-After short time you will be asked to remove the installation media. Remove the usb drive and press Enter.
+After 5 to 10 minutes you will be asked to remove the installation media. Remove the usb drive and press Enter.
 
-When the machine restarts, press Esc and 1 and you will finally have Ubuntu! 
+When the machine restarts, press Esc and select option 1 (the only available) and you will finally have Ubuntu! 
+(if the chrome esclamtion mark page is shown again, press CTRL + D, or CTRL + L > scape > 1 and repeat as before, it should work). 
 
 
 ## Other Linux distros
