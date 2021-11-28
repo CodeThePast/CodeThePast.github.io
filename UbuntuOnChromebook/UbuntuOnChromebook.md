@@ -4,7 +4,9 @@
 
 In **2013**, when I was working in the US, I bought a **Chromebook Acer C720P-6666** (with touchscreen) that worked well for long time. It was not my main machine, but was perfect for some activities and handy for the small size.
 
-Unfortunately, at the end of 2019 Google decided to stop supporting my model (the current policy is to support Chromebook models up to 6.5 years from their production date, more details [here](https://www.theguardian.com/technology/askjack/2019/sep/12/can-i-still-use-my-chromebook-now-it-is-no-longer-supported)). After some time I started experiencing software issues and glitches, and of course not having OS updates means to face serious security risks. Therefore, I decided to challenge myseft in installing **another OS on this laptop**, an Ubuntu distro of Linux, giving a try to this 9 years old laptop to continue journey together. Together with this OS upgrade I also wanted to provide more disk memory. In this post I describe the process and the results of this upgrades, together with a few personal notes!
+Unfortunately, at the end of 2019 Google decided to stop supporting my model (the current policy is to support Chromebook models up to 6.5 years from their production date, more details [here](https://www.theguardian.com/technology/askjack/2019/sep/12/can-i-still-use-my-chromebook-now-it-is-no-longer-supported)). After some time I started experiencing software issues and glitches, and of course not having OS updates means to face serious security risks. Therefore, I decided to challenge myseft in installing **another OS on this laptop**, an Ubuntu distro of Linux, giving a try to this 9 years old laptop to continue journey together. Together with this OS upgrade I also wanted to provide more disk memory. 
+
+In this post I describe and comment step by step the entire process and the results of this upgrades!
 
 ## The Acer C720P
 
@@ -82,6 +84,7 @@ You can now turn the Chromebook on. You will see an error message. If you insert
 ## Ubuntu side-by-side ChromeOS (with Crouton)
 
 Instead of erasing your ChromeOS and installing a linux based OS you can easily run a Debian-based Linux side-by-side ChromeOs. To do that we can run a script called **Crouton** which lets you uickly switch from one environment to the other just by pressing a few keyboard buttons.
+Note: there is also another project [**ChrUbuntu**](https://github.com/iantrich/ChrUbuntu-Guides/blob/8d7e5ed1495c9f10fd6b542c960f53fe101e35b9/Guides/Installing%20ChrUbuntu.md) that allows to install Ubuntu on the internal storage (or on a usb drive) and run a dualboot with ChromeOS; for this see the [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen*.
 
 With Crouton, your Linux OS is sharing the kernel with ChromeOS. That means all of the hardware including the WiFi and touchscreen will work perfectly in both the OS. 
 
@@ -133,12 +136,11 @@ $ sudo delete-chroot evilchroot
 ## Remove ChromeOS and install Ubuntu
 
 If you don't want to use ChromeOS at all, you can replace the OS entirely with Ubuntu (or another operating system). It is a bit more tricky, but doable.
-Note that the touch screeen might not function properly (or at all) or that you have to jump through some hoops in order to get it work.
+**Note that the touch screeen might not function properly (or at all)** or that you have to jump through some hoops in order to get it work.
 
 There are a feww online resources that can help you in the process:
-- Here a extended [blogpost](https://samsclass.info/128/proj/chromebooks3.htm) by *Sam Bowne* explaining the all process of installation.
-- Here a [blogpost](https://dbtechreviews.com/2018/09/how-to-install-ubuntu-on-chromebook-and-remove-chromeos/) and a [video](https://www.youtube.com/watch?v=AxsckwmRhfw) by *David Burgess*.
-- Here a [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen* using ChrUbuntu or Bodhi Linux.
+- Here a extended [blogpost](https://samsclass.info/128/proj/chromebooks3.htm) by *Sam Bowne* explaining the all process of installation of Ubuntu 15.04.
+- Here a [blogpost](https://dbtechreviews.com/2018/09/how-to-install-ubuntu-on-chromebook-and-remove-chromeos/) and a [video](https://www.youtube.com/watch?v=AxsckwmRhfw) by *David Burgess* using Ubuntu 18.04.
 
 ### You need:
 1. a small cross-head screwdriver;
@@ -148,13 +150,13 @@ The process is a s follows. First, you have to open your laptop (see section abo
 
 Power on your Chromebook and enter the developer mode  by pressing Esc + Refresh + Power Button. This will restart the system with an error message saying "Chrome OS is missing or damaged".
 
-Press Ctrl + D, then press Enter when prompted tthe message "To turn OS verification OFF, press ENTER". 
+Press Ctrl + D, release and then press Enter when prompted tthe message "To turn OS verification OFF, press ENTER". 
 
 After some 20 seconds you will hear a beeps and get a message saying "Your system is transitioning to Developer Mode." After some 5 minutes, the "OS Verification is OFF" message will be reprompted together with three beeps, and the Chromebook will restart.
 
 It will show again "OS verification is OFF". Press Ctrl+D to start ChromeOS.
 
-To Enable Developer BIOS and USB Boot, don't log in to ChromeOS.
+To Enable Developer BIOS and USB Boot, **do NOT log in** to ChromeOS.
 
 Press CTRL + ALT + Forward, log in as "chronos", without any password.
 
@@ -187,7 +189,10 @@ When the machine restarts, press Esc and 1 and you will finally have Ubuntu!
 
 ## Other Linux distros
 
-For people interested in installing on this laptop model other Linux distributions I found [here](https://wiki.archlinux.org/title/Acer_C720_Chromebook#Locating_the_Write-Protect_Screw) some documentation about Arch, [here](http://jeffhoogland.blogspot.com/2014/01/) about Bodhi Linux, and [here](https://www.youtube.com/watch?v=dq44cHvxTXI&t=327s) about Mint.
+For people interested in installing on this laptop model other Linux distributions I found:
+1. [here](https://wiki.archlinux.org/title/Acer_C720_Chromebook#Locating_the_Write-Protect_Screw) some documentation about Arch;
+2. [here](http://jeffhoogland.blogspot.com/2014/01/) and [here](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) about Bodhi Linux.
+3. And [here](https://www.youtube.com/watch?v=dq44cHvxTXI&t=327s) about Mint.
 
 
 ## To Restore the original ChromeOS
@@ -202,9 +207,9 @@ For resources about restoring the original ChromeOs please visit the relative [C
 
 Remove every device connected to your Chromebook (such as a mouse or external hard drive) and be sure to have enpugh power in your laptop battery (or to be coonnected to the power soklet).
 
-**Enter the Chromebook recovery mode**: Press and hold Esc + Refresh, then press Power. Let go of Power. When a message shows on the screen, let go of the other keys. (On some Chromebook models: Press and hold Esc + Maximize , then press Power . Let go of Power.)
+**Enter the Chromebook recovery mode**: Press and hold Esc + Refresh, then press Power. Let go of Power. When a message shows on the screen, let go of the other keys. (On some Chromebook models: Press and hold Esc + Maximize, then press and release Power.)
 
-You should see one of these messages: "ChromeOS is missing or damaged. Please insert a recovery USB stick or SD card." or "Please insert a recovery USB stick or SD card." (BTW, at the bottom of the page you can also see the HWID of your model
+You should see one of these messages: "ChromeOS is missing or damaged. Please insert a recovery USB stick or SD card." or "Please insert a recovery USB stick or SD card." (BTW, at the bottom of the page you can also see the HWID of your model).
 
 ![Recovery Mode page](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome.jpg)
 
