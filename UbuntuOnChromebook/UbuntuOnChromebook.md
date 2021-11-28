@@ -106,7 +106,7 @@ For example, to run the ligth weight Xubuntu distribution (Xfce, Ubuntu 16.04 LT
 ```
 $ sudo crouton -t xfce
 ```
-Once the installation is over you can run Xfce by typing:
+Once the installation is over you can run Xfce and ump into the desktop environment by typing:
 ```
 $ sudo enter-chroot startxfce4
 ```
@@ -114,9 +114,9 @@ or with the shortcut,
 ```
 $ sudo startxfce4
 ```
-Here you will find all the softawares shipped with the distro or install more. Online there are a few resources related to installing more recent Ubuntu releases (ie. Focal Fossa see [here](https://github.com/dnschneid/crouton/issues/4265) or [here](https://bleepcoder.com/crouton/602619482/focal-fossa).
+Here you will find all the softawares shipped with the distro or install more (through the Ubuntu Software Center). Online there are a few resources related to arguments you can add to the installing command string or about installing more recent Ubuntu releases (ie. Focal Fossa see [here](https://github.com/dnschneid/crouton/issues/4265) or [here](https://bleepcoder.com/crouton/602619482/focal-fossa).
 
-If you want to switch to the ChromeOS just press Ctrl + Alt + Shift + Back, while pressing Ctrl + Alt + Shift + Forward will bring you to your running Linux distribution. To exit it, just log out of Xfce.
+If you want to switch to the ChromeOS just press Ctrl + Alt + Shift + Back, while pressing Ctrl + Alt + Shift + Forward will bring you to your running Linux distribution. To exit it, just log out of Xfce, or type "exit in the Chrome terminal.
 
 Remember that when you exit the developer mode the Chromebook will wipe all your data and return to its factory settings.
 
