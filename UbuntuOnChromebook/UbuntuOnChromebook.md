@@ -4,7 +4,7 @@
 
 In **2013**, when I was working in the US, I bought a **Chromebook Acer C720P-6666** (with touchscreen) that worked well for long time. It was not my main machine, but was perfect for some activities and handy for the small size.
 
-Unfortunately, Some months ago Google decided to stop supporting my model. After some time I started experiencing software issues and glitches. Therefore, I decided to challenge myseft in installing **another OS on this laptop**, an Ubuntu distro of Linux, giving a try to this 9 years old laptop to continue journey together. Together with this OS upgrade I also wanted to provide more disk memory. 
+Unfortunately, at the end of 2019 Google decided to stop supporting my model (the current policy is to support Chromebook models up to 6.5 years from their production date, more details [here](https://www.theguardian.com/technology/askjack/2019/sep/12/can-i-still-use-my-chromebook-now-it-is-no-longer-supported)). After some time I started experiencing software issues and glitches, and of course not having OS updates means to face serious security risks. Therefore, I decided to challenge myseft in installing **another OS on this laptop**, an Ubuntu distro of Linux, giving a try to this 9 years old laptop to continue journey together. Together with this OS upgrade I also wanted to provide more disk memory. 
 
 Hoping this post could help somebody else with similar need here I describe the process and the results together with a few personal notes!
 
@@ -66,6 +66,8 @@ Focal Fossa with Crouton:
 
 
 ## Ubuntu as only OS
+
+Remove the "write-protection" screw (n. 7 in the image shown above).
 
 - Here a extended [blogpost](https://samsclass.info/128/proj/chromebooks3.htm) by *Sam Bowne* explaining the all process of installation.
 - Here a [blogpost](https://dbtechreviews.com/2018/09/how-to-install-ubuntu-on-chromebook-and-remove-chromeos/) and a [video](https://www.youtube.com/watch?v=AxsckwmRhfw) by *David Burgess*.
