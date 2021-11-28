@@ -108,7 +108,24 @@ For people interested in installing on this laptop model other Linux distributio
 
 ## To Restore the original ChromeOS
 
-- Here a [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen* (check the last section).
+At the end of this experiemtn you may want to restore the original ChromeOS to your chromebook, here is how you can do it.
+For resources about restoring the original ChromeOs please visit the relative [Chromebook help page](https://support.google.com/chromebook/answer/1080595?hl=en#zippy=%2Cuse-a-linux-computer%2Cstep-download-a-new-copy-of-the-os%2Cstep-enter-recovery-mode). You can also check this [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen* (look at the last section).
 
+### You need:
+1. SD card or usb drive with recovery ChromeOS (that you made previously)
+
+Remove every device connected to your Chromebook (such as a mouse or external hard drive) and be sure to have enpugh power in your laptop battery (or to be coonnected to the power soklet).
+
+**Enter the Chromebook recovery mode**: Press and hold Esc + Refresh, then press Power. Let go of Power. When a message shows on the screen, let go of the other keys. (On some Chromebook models: Press and hold Esc + Maximize , then press Power . Let go of Power.)
+
+You should see one of these messages: "Chrome OS is missing or damaged. Please insert a recovery USB stick or SD card." or "Please insert a recovery USB stick or SD card." (BTW, at the bottom of the page you can also see the HWID of your model
+
+![Recovery Mode page](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome.jpg)
+
+Insert the USB flash drive or SD card that you used to create recovery media. You don't need to press enter as the chromebook will start processing the recovery mode. Wait and follow the on-screen instructions (this will take a few minutes).
+
+![Recovery Mode checking](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome.jpg)
+
+Here it is your Chromebook is back to its (not supported) fresh installation!
 
 [< back](https://codethepast.github.io/)
