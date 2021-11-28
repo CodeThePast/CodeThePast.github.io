@@ -24,12 +24,12 @@ And here the picture of the sticker with the product's detail (yes, it was made 
 
 ### You need:
 1. a drive to backup your documents;
-2. a SD card or USB pendrive with at least 2 GB, to save a recovery of Chrome OS - in case you will want to reinstall the original OS.
+2. a SD card or USB pendrive with at least 2 GB, to save a recovery of ChromeOS - in case you will want to reinstall the original OS.
 3. (optional, but sometimes needed) an additional computer, Linux or Windows. 
 
 Please consider backing up your documents before starting this operation as they will not be retained during the operation (or better, they will remain in your old SSD, but not authomatically copied to the new one).
 
-Furthermore, you may want to cerate a recovery of your Chrome OS. Until mid 2019 you could download the OS image from your chromebook by typing chrome://imageburner into the address bar of the browser. Nowadays, from your chromebook or from a Windows machines you need instal an extension for the chrome browser, that is the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) that you can download from the Chrome Web Store. Users are not super happy about how the extension works and many issues and delays are reported for this procedure. 
+Furthermore, you may want to cerate a recovery of your ChromeOS. Until mid 2019 you could download the OS image from your chromebook by typing chrome://imageburner into the address bar of the browser. Nowadays, from your chromebook or from a Windows machines you need instal an extension for the chrome browser, that is the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) that you can download from the Chrome Web Store. Users are not super happy about how the extension works and many issues and delays are reported for this procedure. 
 
 From a **Linux computer** you can more easily download the Recovery Tool [here](https://dl.google.com/dl/edgedl/chromeos/recovery/linux_recovery.sh), then change the script permissions to allow execution with the following command: 
 ```
@@ -79,7 +79,19 @@ Push the bottom side back in its position (better to start from the rear) and sc
 You can now turn the Chromebook on. You will see an error message. If you insert the recovery SD card or USB drive the recovery will start automatically. Just wait for the install to complete and you’re done. If the restore fails you will have to doublecheck (and in case download again) the recovery drive again.
 
 
-## Ubuntu byside of Chrome OS (with Crouton)
+## Ubuntu side-by-side ChromeOS (with Crouton)
+
+Instead of erasing your ChromeOS and installing a linux based OS you can easily run a Debian-based Linux side-by-side ChromeOs. To do that we can run a script called **Crouton** which lets you uickly switch from one environment to the other just by pressing a few keyboard buttons.
+
+With Crouton, your Linux OS is sharing the kernel with ChromeOS. That means all of the hardware including the WiFi and touchscreen will work perfectly in both the OS. 
+
+To run Crouton you just need to [enter developer mode](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook) on the Chromebook by holding the Esc and Refresh keys and tapping the power button. Then follow the instructions at the [Crouton GitHub page](https://github.com/dnschneid/crouton) to download and install the Linux OS distribution of your choice.
+
+I used this method to install Ubuntu 13.10 with the light-weight Xfce desktop environment so I could install the GIMP image editor and Firefox web browser (just because I could). Everything worked pretty smoothly and for the most part the system felt like a normal laptop computer with a desktop operating system while I was using Ubuntu.
+
+If you’d rather not use ChromeOS at all, you can enter developer mode and then replace the operating system entirely with Ubuntu or another operating system — you just may have to jump through some hoops in order to get the touchscreen to work.
+
+One of the things I like about using Crouton is that it gives you the best of both worlds… and also makes it very easy to erase Ubuntu and revert to the stock ChromeOS software — just exit developer mode and the Chromebook will wipe all your data and return to its factory settings.
 
 How to operate with Chromium in Developer mode:
 - https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook
@@ -120,7 +132,7 @@ Remove every device connected to your Chromebook (such as a mouse or external ha
 
 **Enter the Chromebook recovery mode**: Press and hold Esc + Refresh, then press Power. Let go of Power. When a message shows on the screen, let go of the other keys. (On some Chromebook models: Press and hold Esc + Maximize , then press Power . Let go of Power.)
 
-You should see one of these messages: "Chrome OS is missing or damaged. Please insert a recovery USB stick or SD card." or "Please insert a recovery USB stick or SD card." (BTW, at the bottom of the page you can also see the HWID of your model
+You should see one of these messages: "ChromeOS is missing or damaged. Please insert a recovery USB stick or SD card." or "Please insert a recovery USB stick or SD card." (BTW, at the bottom of the page you can also see the HWID of your model
 
 ![Recovery Mode page](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome.jpg)
 
