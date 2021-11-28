@@ -22,16 +22,16 @@ And here the picture of the sticker with the product's detail (yes, it was made 
 
 ## Back-up your data and create a recovery for the Chrome OS (ust in case...)
 
-
 ### You need:
 1. a drive to backup your documents;
 2. a SD card or USB pendrive with at least 2 GB, to save a recovery of Chrome OS - in case you will want to reinstall the original OS.
+3. (optional, but sometimes needed) an additional computer, Linux or Windows. 
 
 Please consider backing up your documents before starting this operation as they will not be retained during the operation (or better, they will remain in your old SSD, but not authomatically copied to the new one).
 
-Furthermore, you may want to cerate a recovery of your Chrome OS. Until mid 2019 you could download the OS image from your chromebook by typing chrome://imageburner into the address bar of the browser. For Windows machines now you need instal an extension for the chrome browser, that is the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) that you can download from the Chrome Web Store. Users are not super happy about how the extension works and many issues and delays are reported for this procedure. 
+Furthermore, you may want to cerate a recovery of your Chrome OS. Until mid 2019 you could download the OS image from your chromebook by typing chrome://imageburner into the address bar of the browser. Nowadays, from your chromebook or from a Windows machines you need instal an extension for the chrome browser, that is the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) that you can download from the Chrome Web Store. Users are not super happy about how the extension works and many issues and delays are reported for this procedure. 
 
-From a Linux computer you can more easily download the Recovery Tool [here](https://dl.google.com/dl/edgedl/chromeos/recovery/linux_recovery.sh), then change the script permissions to allow execution with the following command: 
+From a **Linux computer** you can more easily download the Recovery Tool [here](https://dl.google.com/dl/edgedl/chromeos/recovery/linux_recovery.sh), then change the script permissions to allow execution with the following command: 
 ```
 $ sudo chmod 755 linux_recovery.sh
 ```
@@ -49,7 +49,7 @@ Differently from other models, the Acer C720P has the touchscreen and only 2GB o
 
 ### You need:
 1. a small cross-head screwdriver;
-2. a new, larger SSD. 64GB and 128GB have been tested and work well. Please note that for this model the SSD is a SATA M.2 2242 form factor type.
+2. a new, larger SSD. 64GB and 128GB have been tested and work well. Please note that for this model the SSD is a M.2 SATA 2242 form factor type.
 
 There are several online resources that show how easy is to open the laptop and change the original SSD with a new one:
 - Here a [video](https://www.youtube.com/watch?v=AZa5kWBfbWM) by *unlokia* showing how to properly open this laptop model and how to find the different hardware components.
@@ -57,7 +57,9 @@ There are several online resources that show how easy is to open the laptop and 
 - Here a [video](https://www.youtube.com/watch?v=c9rKQVtEjNc) by *Daniel Berry* mounting a 64GB SSD.
 - Here a [blogpost](https://www.umpcportal.com/2014/01/how-to-upgrade-the-acer-c720-chromebook-with-an-m-2-sata-from-mydigitalsdd/) and a [video](https://www.youtube.com/watch?v=-jOHHyJMgWk) by *Steve Paine* mounting a 128GB SSD.
 
-In order to open the laptop you need to remove 13 screws placed on the bottom side, then gently insert a plastic point or a card in the gap between the bottom side and the keyboard side (better to start from the hinges) to completely free the bottom side. I provide here a view of the opened laptop.
+In order to open the laptop you need to turn it off and to remove 13 screws placed on the bottom side (Note: one of the screw is hidden under the round "seal" sticker - If you mind, once you’ve broken that sticker you don’t have a warranty anymore!). Then gently insert a thin plastic tool/point or a card in the gap between the bottom side and the keyboard side to completely free the bottom side (better to start from the hinges, anyway I suggest to watch the linked videos). 
+
+I provide here a view of the opened laptop.
 
 ![Inside the laptop](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome13.jpg)
 
@@ -72,9 +74,9 @@ This is the detail of the original 32GB SSD in place.
 ![The original SSD in place](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome14.jpg)
 
 It is very easy to change the SSD: just remove the single screw, carefully slide the SSD out, gently put the new SSD in the slot (paying attention to respect the direction of the card and do not touch the contacts as the skin acids are dangerous for the electronic contacts).
-Push the bottom side back in its position and screw back all the 13 screws.
+Push the bottom side back in its position (better to start from the rear) and screw back all the 13 screws.
 
-
+You can now turn the Chromebook on. You will see an error message. If you insert the recovery SD card or USB drive the recovery will start automatically. Just wait for the install to complete and you’re done. If the restore fails you will have to doublecheck (and in case download again) the recovery drive again.
 
 
 ## Ubuntu byside of Chrome OS (with Crouton)
@@ -126,6 +128,7 @@ Insert the USB flash drive or SD card that you used to create recovery media. Yo
 
 ![Recovery Mode checking](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome.jpg)
 
+When the recovery is completed you will be asked to remove the recovery media (ie. the SD card or the USB drive you used). Afterwards, the system will restart automatically.
 Here it is your Chromebook is back to its (not supported) fresh installation!
 
 [< back](https://codethepast.github.io/)
