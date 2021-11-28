@@ -6,18 +6,18 @@ In **2013**, when I was working in the US, I bought a **Chromebook Acer C720P-66
 
 Unfortunately, Some months ago Google decided to stop supporting my model. After some time I started experiencing software issues and glitches. Therefore, I decided to challenge myseft in installing **another OS on this laptop**, an Ubuntu distro of Linux, giving a try to this 9 years old laptop to continue journey together. Together with this OS upgrade I also wanted to provide more disk memory. 
 
-Hoping this post could help somebody else with similar need here I describe the process and the results!
+Hoping this post could help somebody else with similar need here I describe the process and the results together with a few personal notes!
 
 ## The Acer C720P
 
-It is not easy to find anymore online the full specs about the Acer C720P, but [here](https://www.laptopmag.com/reviews/laptops/acer-chromebook-c720p) you have some. Here a [post](https://liliputing.com/2014/03/acer-c720p-touchscreen-chromebook-review.html) with an extended review of the Acer C720P by *Brad Linder*.
-These are the top- and bottomview of the laptop befoer opening it.
+Nowadays, it is not easy to find online the full specs about the Acer C720P, but [here](https://www.laptopmag.com/reviews/laptops/acer-chromebook-c720p) you have the main information. To get an extended review of the Acer C720P by *Brad Linder* you can read this [post](https://liliputing.com/2014/03/acer-c720p-touchscreen-chromebook-review.html).
+For your documentation I provide here the top- and bottomview of the laptop before opening it.
 
 ![Top view](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome10.jpg)
 
 ![Bottom view](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome11.jpg)
 
-And here the picture of the sticker with the product detail (yes, made in December 2013!).
+And here the picture of the sticker with the product's detail (yes, it was made in December 2013!).
 
 ![Laptop detail](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome12.jpg)
 
@@ -34,7 +34,7 @@ There are several online resources that show how easy is to open the laptop and 
 - Here a [video](https://www.youtube.com/watch?v=c9rKQVtEjNc) by *Daniel Berry* mounting a 64GB SSD.
 - Here a [blogpost](https://www.umpcportal.com/2014/01/how-to-upgrade-the-acer-c720-chromebook-with-an-m-2-sata-from-mydigitalsdd/) and a [video](https://www.youtube.com/watch?v=-jOHHyJMgWk) by *Steve Paine* mounting a 128GB SSD.
 
-In order to open the laptop you need to remove 13 screws placed on the bottom side, then gently insert a plastic point or a card in the gap between the bottom side and the keyboard side to free the bottom side. I provide here a view of the opened laptop.
+In order to open the laptop you need to remove 13 screws placed on the bottom side, then gently insert a plastic point or a card in the gap between the bottom side and the keyboard side (better to start from the hinges) to completely free the bottom side. I provide here a view of the opened laptop.
 
 ![Inside the laptop](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome13.jpg)
 
