@@ -169,37 +169,20 @@ This will flash the BIOS to enable SeaBIOS, which allows you to boot from USB.
 
 Hold down the power button to turn the Chromebook off.
 
-Installing Ubuntu 15.04
-Insert a Ubuntu 15.04 bootable USB drive and turn the power on again.
+Insert the Ubuntu bootable USB drive and turn the power on again.
 
-The prompt says "SeaBIOS" and then "Press ESC for boot menu".
+The prompt will say "SeaBIOS" and "Press ESC for boot menu". Press Esc.
 
-Press Esc.
+Press the number corresponding to your bootable USB.
 
-Press the number corresponding to your install USB.
-
-At the "Welcome" box, accept the default selection of "English" and select "install Ubuntu".
-
-At the "Wireless" box, accept the default selection of "I don't want to connect..." and click Continue.
-
-At the "Preparing to install Ubuntu" screen, accept the default selections and click Continue.
-
+At the "Welcome" window, select "English" and "install Ubuntu". At the "Wireless" box, accept the default selection of "I don't want to connect..." and click Continue. Accept the default selections and click Continue at the "Preparing to install Ubuntu" screen.
 When the "Installation type" box appears, click the "Erase disk and install Ubuntu" button. Click "Install Now".
 
-After a minute or so, a box pops up titled "Write the changes to disks?". Click Continue.
+After a minute or so, a box ask "Write the changes to disks?". Click Continue. In the "Where are you?" box, select your location and click Continue. In the "Keyboard layout" box, accept the default of "English (US)" and click Continue. In the "Who are you?" box, enter account information and click Continue.
 
-In the "Where are you?" box, select your location and click Continue.
+After short time you will be asked to remove the installation media. Remove the usb drive and press Enter.
 
-In the "Keyboard layout" box, accept the default of "English (US)" and click Continue.
-
-In the "Who are you?" box, enter account information and click Continue.
-
-The installation process was very fast--only 2 or 3 minutes!
-
-When you see a prompt asking you to remove the installation media, do that and press Enter.
-
-When the machine restarts, press Esc and 1. You now have Ubuntu! 
-
+When the machine restarts, press Esc and 1 and you will finally have Ubuntu! 
 
 
 ## Other Linux distros
@@ -210,6 +193,8 @@ For people interested in installing on this laptop model other Linux distributio
 ## To Restore the original ChromeOS
 
 At the end of this experiemtn you may want to restore the original ChromeOS to your chromebook, here is how you can do it.
+Remember that if you upgraded the SSD, you will have still the original ChromeOS on the old SSD, therefore you can consider just to switch hard disk!
+
 For resources about restoring the original ChromeOs please visit the relative [Chromebook help page](https://support.google.com/chromebook/answer/1080595?hl=en#zippy=%2Cuse-a-linux-computer%2Cstep-download-a-new-copy-of-the-os%2Cstep-enter-recovery-mode). You can also check this [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen* (look at the last section).
 
 ### You need:
