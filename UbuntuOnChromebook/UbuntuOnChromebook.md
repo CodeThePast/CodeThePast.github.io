@@ -214,11 +214,11 @@ Remove every device connected to your Chromebook (such as a mouse or external ha
 
 You should see one of these messages: "ChromeOS is missing or damaged. Please insert a recovery USB stick or SD card." or "Please insert a recovery USB stick or SD card." (BTW, at the bottom of the page you can also see the HWID of your model).
 
-![Recovery Mode page](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome.jpg)
+![Recovery Mode page](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome15.jpg)
 
 Insert the USB flash drive or SD card that you used to create recovery media. You don't need to press enter as the chromebook will start processing the recovery mode. Wait and follow the on-screen instructions (this will take a few minutes).
 
-![Recovery Mode checking](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome.jpg)
+![Recovery Mode checking](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome16.jpg)
 
 When the recovery is completed you will be asked to remove the recovery media (ie. the SD card or the USB drive you used). Afterwards, the system will restart automatically.
 Here it is your Chromebook is back to its (not supported) fresh installation!
