@@ -87,22 +87,52 @@ With Crouton, your Linux OS is sharing the kernel with ChromeOS. That means all 
 
 To run Crouton you just need to [enter developer mode](https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook) on the Chromebook by holding the Esc and Refresh keys and tapping the power button. Then follow the instructions at the [Crouton GitHub page](https://github.com/dnschneid/crouton) to download and install the Linux OS distribution of your choice.
 
-I used this method to install Ubuntu 13.10 with the light-weight Xfce desktop environment so I could install the GIMP image editor and Firefox web browser (just because I could). Everything worked pretty smoothly and for the most part the system felt like a normal laptop computer with a desktop operating system while I was using Ubuntu.
+For a discussion of Crouton on Chromebook you can see this [post](https://liliputing.com/2014/03/acer-c720p-touchscreen-chromebook-review.html) and the [video](https://www.youtube.com/watch?v=bYGAr_OBBoo) by *Brad Linder*.
 
-If you’d rather not use ChromeOS at all, you can enter developer mode and then replace the operating system entirely with Ubuntu or another operating system — you just may have to jump through some hoops in order to get the touchscreen to work.
+First, you have to download the latest release from [here](https://goo.gl/fd3zc). 
+Then, open a shell in your Chromebook by pressing Ctrl + Alt + T; type "shell" and hit enter. Execute the installer executable with 
+```
+$ sudo install -Dt /usr/local/bin -m 755 ~/Downloads/crouton
+```
+To see the help text launch it with 
+```
+$ sudo crouton
+```
+To see what Linux distros are available to Crouton, you can type:
+```
+$ crouton -r list
+```
+For example, to run the ligth weight Xubuntu distribution (Xfce, Ubuntu 16.04 LTS) you can type:
+```
+$ sudo crouton -t xfce
+```
+Once the installation is over you can run Xfce by typing:
+```
+$ sudo enter-chroot startxfce4
+```
+or with the shortcut, 
+```
+$ sudo startxfce4
+```
+Here you will find all the softawares shipped with the distro or install more. Online there are a few resources related to installing more recent Ubuntu releases (ie. Focal Fossa see [here](https://github.com/dnschneid/crouton/issues/4265) or [here](https://bleepcoder.com/crouton/602619482/focal-fossa).
 
-One of the things I like about using Crouton is that it gives you the best of both worlds… and also makes it very easy to erase Ubuntu and revert to the stock ChromeOS software — just exit developer mode and the Chromebook will wipe all your data and return to its factory settings.
+If you want to switch to the ChromeOS just press Ctrl + Alt + Shift + Back, while pressing Ctrl + Alt + Shift + Forward will bring you to your running Linux distribution. To exit it, just log out of Xfce.
 
-How to operate with Chromium in Developer mode:
-- https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook
+Remember that when you exit the developer mode the Chromebook will wipe all your data and return to its factory settings.
 
-Focal Fossa with Crouton:
-- https://github.com/dnschneid/crouton/issues/4265
-- https://bleepcoder.com/crouton/602619482/focal-fossa
-- Here a [post](https://liliputing.com/2014/03/acer-c720p-touchscreen-chromebook-review.html) and a [video](https://www.youtube.com/watch?v=bYGAr_OBBoo) by *Brad Linder*.
+In the Crouton GitHub page there are more details for more advanced operations. Only remember that if you want to delete Crouton you have to type 
+```
+$ sudo edit-chroot -d evilchroot
+```
+or the shortcut: 
+```
+$ sudo delete-chroot evilchroot
+```
 
 
 ## Ubuntu as only OS
+
+If you’d rather not use ChromeOS at all, you can enter developer mode and then replace the operating system entirely with Ubuntu or another operating system — you just may have to jump through some hoops in order to get the touchscreen to work.
 
 Remove the "write-protection" screw (n. 7 in the image shown above).
 
