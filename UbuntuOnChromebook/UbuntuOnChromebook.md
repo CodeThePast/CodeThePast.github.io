@@ -29,9 +29,9 @@ And here the picture of the sticker with the product's detail (yes, it was made 
 2. a SD card or USB pendrive with at least 2 GB, to save a recovery of ChromeOS - in case you will want to reinstall the original OS.
 3. (optional, but sometimes needed) an additional computer, Linux or Windows. 
 
-Please consider backing up your documents before starting this operation as they will not be retained during the operation (or better, they will remain in your old SSD, but not authomatically copied to the new one).
+Please consider **backing up your documents before starting this operation**, using the USB pendrive.
 
-Furthermore, you may want to cerate a recovery of your ChromeOS. Until mid 2019 you could download the OS image from your chromebook by typing chrome://imageburner into the address bar of the browser. Nowadays, from your chromebook or from a Windows machines you need instal an extension for the chrome browser, that is the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) that you can download from the Chrome Web Store. Users are not super happy about how the extension works and many issues and delays are reported for this procedure. 
+Furthermore, you may want to create a recovery of your ChromeOS. Until mid 2019 you could download the OS image from your Chromebook by typing chrome://imageburner into the address bar of the browser. Nowadays, from your Chromebook or from a Windows machines you need instal an extension for the chrome browser, that is the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) that you can download from the Chrome Web Store. Users are not super happy about how the extension works and many issues and delays are reported for this procedure. 
 
 From a **Linux computer** you can more easily download the Recovery Tool [here](https://dl.google.com/dl/edgedl/chromeos/recovery/linux_recovery.sh), then change the script permissions to allow execution with the following command: 
 ```
@@ -46,7 +46,7 @@ Follow the on-screen instructions to create recovery media. You will be asked to
 
 ## Hardware upgrade
 
-Differently from other models, the Acer C720P has the touchscreen and only 2GB of RAM, that unfortunately cannot be expanded. As for the disk, the laptop originally has a 32GB SSD, that is enough for a web based chromebook, but might be tight for a complete Ubuntu system. 
+Differently from other models, the Acer C720P has the touchscreen and only 2GB of RAM, that unfortunately cannot be expanded. As for the disk, the laptop originally has a 32GB SSD, that is enough for a web based Chromebook, but might be tight for a complete Ubuntu system. 
 **NOTE: You will invalidate your warranty when you open your laptop and change the SSD. You’re on your own if you break anything.**
 
 ### You need:
@@ -156,7 +156,7 @@ Do not press the space. After some 20 seconds you will hear a beeps and get a me
 
 It will show again "OS verification is OFF". Press Ctrl+D to start ChromeOS.
 
-> **2018 alternative**: Modify the Chromebooks BIOS: Turn the Chromebook on and press Ctrl + D to bypass the screen with the red exclamation mark. Your Chromebook is reset to factory settings so you will need to go through the Chrome OS setup again. Log in again (or "use as a guest"). Press Ctrl + Alt + T to bring up a terminal window tab. Type shell and press Enter. Type this: cd;bash <(curl https://johnlewis.ie/flash_cb_fw.sh), then press enter. Choose the option to Modify my Chromebook’s RW_LEGACY slot (that should be option 1), press enter and follow the on-screen instructions (ie. retype a sentence from the screen). At the end shut off the chromebook, power on again and press CTRL + D.
+> **2018 alternative**: Modify the Chromebooks BIOS: Turn the Chromebook on and press Ctrl + D to bypass the screen with the red exclamation mark. Your Chromebook is reset to factory settings so you will need to go through the Chrome OS setup again. Log in again (or "use as a guest"). Press Ctrl + Alt + T to bring up a terminal window tab. Type shell and press Enter. Type this: cd;bash <(curl https://johnlewis.ie/flash_cb_fw.sh), then press enter. Choose the option to Modify my Chromebook’s RW_LEGACY slot (that should be option 1), press enter and follow the on-screen instructions (ie. retype a sentence from the screen). At the end shut off the Chromebook, power on again and press CTRL + D.
 
 To Enable Developer BIOS and USB Boot, **do NOT log in** to ChromeOS. Press CTRL + ALT + Forward, log in as "chronos" (ust that, without any password).
 
@@ -199,7 +199,7 @@ For people interested in installing on this laptop model other Linux distributio
 
 ## To Restore the original ChromeOS
 
-At the end of this experiemtn you may want to restore the original ChromeOS to your chromebook, here is how you can do it.
+At the end of this experiemtn you may want to restore the original ChromeOS to your Chromebook, here is how you can do it.
 Remember that if you upgraded the SSD, you will have still the original ChromeOS on the old SSD, therefore you can consider just to switch hard disk!
 
 For resources about restoring the original ChromeOs please visit the relative [Chromebook help page](https://support.google.com/chromebook/answer/1080595?hl=en#zippy=%2Cuse-a-linux-computer%2Cstep-download-a-new-copy-of-the-os%2Cstep-enter-recovery-mode). You can also check this [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen* (look at the last section).
@@ -215,7 +215,7 @@ You should see one of these messages: "ChromeOS is missing or damaged. Please in
 
 ![Recovery Mode page](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome15.jpg)
 
-Insert the USB flash drive or SD card that you used to create recovery media. You don't need to press enter as the chromebook will start processing the recovery mode. Wait and follow the on-screen instructions (this will take a few minutes).
+Insert the USB flash drive or SD card that you used to create recovery media. You don't need to press enter as the Chromebook will start processing the recovery mode. Wait and follow the on-screen instructions (this will take a few minutes).
 
 ![Recovery Mode checking](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome16.jpg)
 
