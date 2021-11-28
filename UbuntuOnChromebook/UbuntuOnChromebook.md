@@ -199,8 +199,8 @@ When the machine restarts, press Esc and select option 1 (the only available) an
 
 For people interested in installing on this laptop model other Linux distributions I found:
 1. [here](https://wiki.archlinux.org/title/Acer_C720_Chromebook#Locating_the_Write-Protect_Screw) some documentation about Arch;
-2. [here](http://jeffhoogland.blogspot.com/2014/01/) and [here](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) about Bodhi Linux.
-3. And [here](https://www.youtube.com/watch?v=dq44cHvxTXI&t=327s) about Mint.
+2. [here](http://jeffhoogland.blogspot.com/2014/01/) and [here](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) about Bodhi Linux;
+3. and [here](https://www.youtube.com/watch?v=dq44cHvxTXI&t=327s) about Mint.
 
 
 ## To Restore the original ChromeOS
