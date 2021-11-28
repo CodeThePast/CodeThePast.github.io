@@ -27,12 +27,16 @@ Differently from other models, the Acer C720P has the touchscreen and only 2GB o
 
 ### You need:
 1. a drive to backup your documents;
-2. a 4GB SD card, to save a recovery of Chrome OS - in case you will want to reinstall the original OS.
+2. a SD card or USB pendrive with at least 2 GB, to save a recovery of Chrome OS - in case you will want to reinstall the original OS.
 3. a small cross-head screwdriver;
 4. a new, larger SSD. 64GB and 128GB have been tested and work well. Please note that for this model the SSD is a SATA M.2 2242 form factor type.
 
 Please consider backing up your documents before starting this operation as they will not be retained during the operation (or better, they will remain in your old SSD, but not authomatically copied to the new one).
-Furthermore, you may want to cerate a recovery of your Chrome OS. Until mid 2019 you could download the OS image from your chromebook by typing chrome://imageburner into the adrress bar of the browser. Now you need to use the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) that you can download from the Chrome Web Store. May issues and delays are reported for this procedure, but as per today this is the only way to save an image of the OS. You wil be asked to enter your device's model number (mine is PEPPY E6A-O3G-A9V)  
+Furthermore, you may want to cerate a recovery of your Chrome OS. Until mid 2019 you could download the OS image from your chromebook by typing chrome://imageburner into the address bar of the browser. For Windows machines now you need instal an extension for the chrome browser, that is the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) that you can download from the Chrome Web Store. Users are not super happy about how the extension works and many issues and delays are reported for this procedure. From a Linux computer you can more easily download the Recovery Tool [here](https://dl.google.com/dl/edgedl/chromeos/recovery/linux_recovery.sh), then change the script permissions to allow execution with the following command: 
+$ sudo chmod 755 linux_recovery.sh
+Run the script with root privileges with the following command: 
+$ sudo bash linux_recovery.sh
+Follow the on-screen instructions to create recovery media. You will be asked to enter your device's HD model number (or HWID). How to find your HD model number? type chrome://system in the chrome browser and search for the HWID (mine model number for example is PEPPY E6A-O3G-A9V) You will have to insert the recovery SD card or USB drive (that will be reformatted authomaticaly). This may teake several minutes.
 
 There are several online resources that show how easy is to open the laptop and change the original SSD with a new one:
 - Here a [video](https://www.youtube.com/watch?v=AZa5kWBfbWM) by *unlokia* showing how to properly open this laptop model and how to find the different hardware components.
