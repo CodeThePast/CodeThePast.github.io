@@ -2,9 +2,9 @@
 
 [< back](https://codethepast.github.io/)
 
-In **2013**, when I was working in the US, I bought a **Chromebook Acer C720P-6666** (with touchscreen) that worked well for long time. It was not my main machine, but was perfect for some activities and handy for the small size.
+In **2013**, when I was in the US, I bought a **Chromebook Acer C720P-6666** (with touchscreen) that worked well for long time. It was not my main machine, but was perfect for some activities and very usefull for beign small in size.
 
-Unfortunately, at the end of 2019 Google decided to stop supporting my model (the current policy is to support Chromebook models up to 6.5 years from their production date, more details [here](https://www.theguardian.com/technology/askjack/2019/sep/12/can-i-still-use-my-chromebook-now-it-is-no-longer-supported)). After some time I started experiencing software issues and glitches, and of course not having OS updates means to face serious security risks. Therefore, I decided to challenge myseft in installing **another OS on this laptop**, an Ubuntu distro of Linux, giving a try to this 9 years old laptop to continue journey together. Together with this OS upgrade I also wanted to provide more disk memory. 
+Unfortunately, at the end of 2019 Google decided to stop supporting this Chromebook model (the current policy is to support models up to 6.5 years from their production date, more details [here](https://www.theguardian.com/technology/askjack/2019/sep/12/can-i-still-use-my-chromebook-now-it-is-no-longer-supported)). After some time I started experiencing software issues and glitches, and of course not having OS updates means to face serious security risks. Therefore, I decided to challenge myseft in installing **another OS on this laptop**, an Ubuntu distro of Linux, trying to give a new life to this 9 years old laptop. Together with this OS upgrade I also wanted to provide more disk memory.
 
 In this post I describe and comment step by step the entire process and the results of this upgrades!
 
@@ -22,7 +22,7 @@ And here the picture of the sticker with the product's detail (yes, it was made 
 ![Laptop detail](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome12.jpg)
 
 
-## Back-up your data and create a recovery for the Chrome OS (ust in case...)
+## Back-up your data and create a recovery for the Chrome OS (just in case...)
 
 ### You need:
 1. a drive to backup your documents;
@@ -41,7 +41,7 @@ Run the script with root privileges with the following command:
 ```
 $ sudo bash linux_recovery.sh
 ```
-Follow the on-screen instructions to create recovery media. You will be asked to enter your device's HD model number (or HWID). How to find your HD model number? type chrome://system in the chrome browser and search for the HWID (mine model number for example is PEPPY E6A-O3G-A9V) You will have to insert the recovery SD card or USB drive (that will be reformatted authomaticaly). This may teake several minutes.
+Follow the on-screen instructions to create recovery media. You will be asked to enter your device's HD model number (or HWID). How to find your HD model number? type chrome://system in the chrome browser and search for the HWID (mine model number for example is PEPPY E6A-O3G-A9V) You will have to insert the recovery SD card or USB pendrive (that will be reformatted authomaticaly). This may teake several minutes.
 
 
 ## Hardware upgrade
@@ -78,13 +78,13 @@ This is the detail of the original 32GB SSD in place.
 It is very easy to change the SSD: just remove the single screw, carefully slide the SSD out, gently put the new SSD in the slot (paying attention to respect the direction of the card and do not touch the contacts as the skin acids are dangerous for the electronic contacts).
 Push the bottom side back in its position (better to start from the rear) and screw back all the 13 screws.
 
-You can now turn the Chromebook on. You will see an error message. If you insert the recovery SD card or USB drive the recovery will start automatically. Just wait for the install to complete and you’re done. If the restore fails you will have to doublecheck (and in case download again) the recovery drive again.
+You can now turn the Chromebook on. You will see an error message. If you insert the recovery SD card or USB pendrive the recovery will start automatically. Just wait for the install to complete and you’re done. If the restore fails you will have to doublecheck (and in case download again) the recovery drive again.
 
 
 ## Ubuntu side-by-side ChromeOS (with Crouton)
 
 Instead of erasing your ChromeOS and installing a linux based OS you can easily run a Debian-based Linux side-by-side ChromeOs. To do that we can run a script called **Crouton** which lets you uickly switch from one environment to the other just by pressing a few keyboard buttons.
-Note: there is also another project [**ChrUbuntu**](https://github.com/iantrich/ChrUbuntu-Guides/blob/8d7e5ed1495c9f10fd6b542c960f53fe101e35b9/Guides/Installing%20ChrUbuntu.md) that allows to install Ubuntu on the internal storage (or on a usb drive) and run a dualboot with ChromeOS; for this see the [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen*.
+Note: there is also another project [**ChrUbuntu**](https://github.com/iantrich/ChrUbuntu-Guides/blob/8d7e5ed1495c9f10fd6b542c960f53fe101e35b9/Guides/Installing%20ChrUbuntu.md) that allows to install Ubuntu on the internal storage (or on a USB pendrive) and run a dualboot with ChromeOS; for this see the [blogpost](https://www.linux.com/topic/desktop/how-install-linux-acer-c720-chromebook/) by *Jack Wallen*.
 
 With Crouton, your Linux OS is sharing the kernel with ChromeOS. That means all of the hardware including the WiFi and touchscreen will work perfectly in both the OS. 
 
@@ -144,7 +144,7 @@ There are a feww online resources that can help you in the process:
 
 ### You need:
 1. a small cross-head screwdriver;
-2. a bootable Ubuntu on a usb drive (4GB or more). See instructions [here](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview).
+2. a bootable Ubuntu on a USB pendrive (4GB or more). See instructions [here](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview).
 
 The process is as follows. First (*but in some resources this passage is not mentioned*), you have to open your laptop (see section above), remove the "write-protection" screw (n. 7 in the image shown above), and close the laptop again.
 
@@ -172,7 +172,7 @@ This will flash the BIOS to enable SeaBIOS, which allows you to boot from USB. (
 
 Hold down the power button (or type "sudo poweroff") to turn the Chromebook off.
 
-Insert the Ubuntu bootable USB drive and turn the power on again.
+Insert the Ubuntu bootable USB pendrive and turn the power on again.
 
 The prompt will say "SeaBIOS" (if you don't get the BIOS then press CTRL + L) and "Press ESC for boot menu", so press Esc. 
 
@@ -183,7 +183,7 @@ When the "Installation type" box appears, click the "Erase disk and install Ubun
 
 After a minute or so, a box ask "Write the changes to disks?". Click Continue. Then will ask for your timezone, select your location and click Continue. In the "Keyboard layout" box, accept the default of "English (US)" and click Continue. In the "Who are you?" box, enter account information and password and click Continue.
 
-After 5 to 10 minutes you will be asked to remove the installation media. Remove the usb drive and press Enter.
+After 5 to 10 minutes you will be asked to remove the installation media. Remove the USB pendrive and press Enter.
 
 When the machine restarts, press Esc and select option 1 (the only available) and you will finally have Ubuntu! 
 (if the chrome esclamtion mark page is shown again, press CTRL + D, or CTRL + L > scape > 1 and repeat as before, it should work). 
@@ -219,7 +219,7 @@ Insert the USB flash drive or SD card that you used to create recovery media. Yo
 
 ![Recovery Mode checking](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome16.jpg)
 
-When the recovery is completed you will be asked to remove the recovery media (ie. the SD card or the USB drive you used). Afterwards, the system will restart automatically.
+When the recovery is completed you will be asked to remove the recovery media (ie. the SD card or the USB pendrive you used). Afterwards, the system will restart automatically.
 Here it is your Chromebook is back to its (not supported) fresh installation!
 
 [< back](https://codethepast.github.io/)
