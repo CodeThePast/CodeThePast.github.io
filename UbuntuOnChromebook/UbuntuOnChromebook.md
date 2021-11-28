@@ -29,13 +29,13 @@ And here the picture of the sticker with the product's detail (yes, it was made 
 
 Please consider backing up your documents before starting this operation as they will not be retained during the operation (or better, they will remain in your old SSD, but not authomatically copied to the new one).
 Furthermore, you may want to cerate a recovery of your Chrome OS. Until mid 2019 you could download the OS image from your chromebook by typing chrome://imageburner into the address bar of the browser. For Windows machines now you need instal an extension for the chrome browser, that is the [Chromebook Recovery Utility](https://chrome.google.com/webstore/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm) that you can download from the Chrome Web Store. Users are not super happy about how the extension works and many issues and delays are reported for this procedure. From a Linux computer you can more easily download the Recovery Tool [here](https://dl.google.com/dl/edgedl/chromeos/recovery/linux_recovery.sh), then change the script permissions to allow execution with the following command: 
-'''
+```
 $ sudo chmod 755 linux_recovery.sh
-'''
+```
 Run the script with root privileges with the following command: 
-'''
+```
 $ sudo bash linux_recovery.sh
-'''
+```
 Follow the on-screen instructions to create recovery media. You will be asked to enter your device's HD model number (or HWID). How to find your HD model number? type chrome://system in the chrome browser and search for the HWID (mine model number for example is PEPPY E6A-O3G-A9V) You will have to insert the recovery SD card or USB drive (that will be reformatted authomaticaly). This may teake several minutes.
 
 
