@@ -142,9 +142,64 @@ There are a feww online resources that can help you in the process:
 
 ### You need:
 1. a small cross-head screwdriver;
-2. usb drive with Ubuntu.
+2. a bootable Ubuntu on a usb drive (4GB or more). See instructions [here](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview).
 
-The process is a s follows. First, you have to open your laptop (see section above) and remove the "write-protection" screw (n. 7 in the image shown above).
+The process is a s follows. First, you have to open your laptop (see section above), remove the "write-protection" screw (n. 7 in the image shown above), and close the laptop again.
+
+Power on your Chromebook and enter the developer mode  by pressing Esc + Refresh + Power Button. This will restart the system with an error message saying "Chrome OS is missing or damaged".
+
+Press Ctrl + D, then press Enter when prompted tthe message "To turn OS verification OFF, press ENTER". 
+
+After some 20 seconds you will hear a beeps and get a message saying "Your system is transitioning to Developer Mode." After some 5 minutes, the "OS Verification is OFF" message will be reprompted together with three beeps, and the Chromebook will restart.
+
+It will show again "OS verification is OFF". Press Ctrl+D to start ChromeOS.
+
+To Enable Developer BIOS and USB Boot, don't log in to ChromeOS.
+
+Press CTRL + ALT + Forward, log in as "chronos", without any password.
+
+Execute the following commands:
+```
+$ shell
+$ sudo crossystem dev_boot_usb=1
+$ sudo crossystem dev_boot_legacy=1
+$ sudo /usr/share/vboot/bin/set_gbb_flags.sh 0x489
+```
+This will flash the BIOS to enable SeaBIOS, which allows you to boot from USB.
+
+Hold down the power button to turn the Chromebook off.
+
+Installing Ubuntu 15.04
+Insert a Ubuntu 15.04 bootable USB drive and turn the power on again.
+
+The prompt says "SeaBIOS" and then "Press ESC for boot menu".
+
+Press Esc.
+
+Press the number corresponding to your install USB.
+
+At the "Welcome" box, accept the default selection of "English" and select "install Ubuntu".
+
+At the "Wireless" box, accept the default selection of "I don't want to connect..." and click Continue.
+
+At the "Preparing to install Ubuntu" screen, accept the default selections and click Continue.
+
+When the "Installation type" box appears, click the "Erase disk and install Ubuntu" button. Click "Install Now".
+
+After a minute or so, a box pops up titled "Write the changes to disks?". Click Continue.
+
+In the "Where are you?" box, select your location and click Continue.
+
+In the "Keyboard layout" box, accept the default of "English (US)" and click Continue.
+
+In the "Who are you?" box, enter account information and click Continue.
+
+The installation process was very fast--only 2 or 3 minutes!
+
+When you see a prompt asking you to remove the installation media, do that and press Enter.
+
+When the machine restarts, press Esc and 1. You now have Ubuntu! 
+
 
 
 ## Other Linux distros
