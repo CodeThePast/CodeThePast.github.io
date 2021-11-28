@@ -34,7 +34,7 @@ There are several online resources that show how easy is to open the laptop and 
 - Here a [video](https://www.youtube.com/watch?v=c9rKQVtEjNc) by *Daniel Berry* mounting a 64GB SSD.
 - Here a [blogpost](https://www.umpcportal.com/2014/01/how-to-upgrade-the-acer-c720-chromebook-with-an-m-2-sata-from-mydigitalsdd/) and a [video](https://www.youtube.com/watch?v=-jOHHyJMgWk) by *Steve Paine* mounting a 128GB SSD.
 
-I provide here a view of the opened laptop.
+In order to open the laptop you need to remove 13 screws placed on the bottom side, then gently insert a plastic point or a card in the gap between the bottom side and the keyboard side to free the bottom side. I provide here a view of the opened laptop.
 
 ![Inside the laptop](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome13.jpg)
 
@@ -42,18 +42,16 @@ To get an idea of the architecture of the Acer C720 (the model without touchscre
 
 ![C720 hardware architecture](https://samsclass.info/128/proj/c720-chromebook-annotated-innards.png)
 
-1. CPU
-2. RAM (here 4GB, mine has only 2GB)
-3. System firmware. 8MB SPI Flash.
-4. NGFF (M.2) SSD
-5. Battery enable switch
-6. Battery enable screw
-7. Write-protect screw
-8. Servo debug header
-9. NGFF (M.2) WWAN connector (probably missing on your machine)
+*For the numbers: 1. CPU. 2. RAM (here 4GB, mine has only 2GB). 3. System firmware. 8MB SPI Flash. 4. NGFF (M.2) SSD. 5. Battery enable switch. 6. Battery enable screw. 7. Write-protect screw. 8. Servo debug header. 9. NGFF (M.2) WWAN connector.*
 
+This is the detail of the original 32GB SSD in place.
 
 ![The original SSD in place](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChrome14.jpg)
+
+It is very easy to change the SSD: just remove the single screw, carefully slide the SSD out, gently put the new SSD in the slot (paying attention to respect the direction of the card and do not touch the contacts as the skin acids are dangerous for the electronic contacts).
+Push the bottom side back in its position and screw back all the 13 screws.
+
+
 
 
 ## Ubuntu byside of Chrome OS (with Crouton)
