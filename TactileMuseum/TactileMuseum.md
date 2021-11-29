@@ -60,7 +60,7 @@ Tutte le attività del progetto verranno ideate e realizzate dal Gruppo Archeolo
 
 Archeologia Tattile prevede la cooperazione tra gli Enti preposti, le associazioni di settore e prestigiosi partner nazionali ed internazionali. Molteplici professionalità saranno dedicate ai vari aspetti del progetto, dalla progettazione, alla realizzazione alla promozione. Tra le collaborazioni e i patrocini già in essere citiamo: Unione Italiana Ciechi e Ipovedenti (UICI), Regione Lazio (BIC), Soprintendenza Archeologia.
 
-![ArSen logo](https://codethepast.github.io/TactileMuseum/arsen_logo.JPG)
+![ArSen logo](https://codethepast.github.io/TactileMuseum/arsen_logo.jpg)
 
 
 [< back](https://codethepast.github.io/)
