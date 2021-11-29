@@ -20,6 +20,8 @@ Il progetto Archeologia Tattile ha i seguenti obiettivi di ampio respiro:
 
 Gli obiettivi di Archeologia Tattile verranno perseguiti mettendo in atto numerose collaborazioni con enti e società di rilevo dell’archeologia, della divulgazione e delle nuove tecnologie. 
 
+![ArSen logo](https://codethepast.github.io/TactileMuseum/arsen_logo.jpg)
+
 
 ## Descrizione del progetto
 Il progetto Archeologia Tattile vuole condurre i non vedenti alla scoperta dei musei, in particolare quelli di carattere archeologico, garantendo intrattenimento e apprendimento.
@@ -59,8 +61,6 @@ Alcune immagini del progetto di allestimento:
 Tutte le attività del progetto verranno ideate e realizzate dal Gruppo Archeologico Romano – aderente ai Gruppi Archeologici d'Italia - un’associazione culturale per la valorizzazione e la tutela dei Beni Culturali, attiva dal 1965 e iscritta al Registro Regionale del Volontariato della Regione Lazio, assieme alla startup Arsen. 
 
 Archeologia Tattile prevede la cooperazione tra gli Enti preposti, le associazioni di settore e prestigiosi partner nazionali ed internazionali. Molteplici professionalità saranno dedicate ai vari aspetti del progetto, dalla progettazione, alla realizzazione alla promozione. Tra le collaborazioni e i patrocini già in essere citiamo: Unione Italiana Ciechi e Ipovedenti (UICI), Regione Lazio (BIC), Soprintendenza Archeologia.
-
-![ArSen logo](https://codethepast.github.io/TactileMuseum/arsen_logo.jpg)
 
 
 [< back](https://codethepast.github.io/)
