@@ -14,7 +14,7 @@ L’Associazione Culturale PRISMA, nata dal Laboratorio VAST­LAB del PIN, Polo 
 
 Questo documento illustra come tramite il TAP la partnership tra Samsung Electronics Italia, Rofalco e Prisma possa portare innovazione nell’archeologia e un uso più ampio e capillare dei tablet. Di seguito ci si focalizza sui tablet, ma le stesse considerazioni e possibilità sono pienamente applicabili anche agli smartphone.
 
-![TAP pic 1](https://codethepast.github.io/TabletArchaeologyProject/TAP_pic_1.jpg)
+![TAP pic 1](https://codethepast.github.io/TabletArchaeologyProject/TAP_pic_1.JPG)
 
 
 ## 2. Tablet in archeologia
@@ -35,7 +35,7 @@ Proprio in Italia, a Pompei, nel 2011 è partito un progetto innovativo delle Un
 
 Un altro importante progetto pilota, iniziato nel 2013, è quello della missione di scavo di Pyla­Koutsopetria a Cipro (​link​), dove sono state sviluppate specifiche applicazioni per redigere e consultare la documentazione direttamente sul campo. L’esistenza di blog di settore in cui vengono scambiate esperienze e best practice (es.​http://paperlessarchaeology.com/​), è riprova del crescente interesse per l’uso della strumentazione digitale in campo archeologico.
 
-![TAP pic 2](https://codethepast.github.io/TabletArchaeologyProject/TAP_pic_2.jpg)
+![TAP pic 2](https://codethepast.github.io/TabletArchaeologyProject/TAP_pic_2.JPG)
 
 
 ## 3. Il concept del Tablet Archaeology Project
@@ -63,7 +63,7 @@ I dati raccolti mediante i dispositivi saranno rielaborati da app e software all
 
 **Applicazione di standard.** ​I dispositivi mobili, integrati con app progettate e sviluppate ad hoc, consentiranno la mappatura dei dati archeologici raccolti durante le attività sul campo su un’ontologia riconosciuta a livello internazionale, quale il CIDOC­CRM. Le ontologie consentono un'efficiente integrazione e un agevole scambio dei dati esprimibili attraverso modelli standard (RDF/XML) previsti dal World Wide Web Consortium (W3C, ​link​). Il CIDOC­CRM (Conceptual Reference Model, ​link​) è un’ontologia formale intesa a facilitare l’integrazione e lo scambio di informazioni eterogenee nell’ambito dei Beni Culturali. Sviluppata dall’International Council of Museums (ICOM) a partire dal 1996, diventata Standard ISO internazionale nel 2006 (21127:2006). Il TAP è concepito per creare un’integrazione hardware­software applicabile universalmente, con ogni condizione di connessione internet.
 
-![TAP pic 3](https://codethepast.github.io/TabletArchaeologyProject/TAP_pic_3.jpg)
+![TAP pic 3](https://codethepast.github.io/TabletArchaeologyProject/TAP_pic_3.JPG)
 
 ## 4. Hardware & Software requirements ##
 
