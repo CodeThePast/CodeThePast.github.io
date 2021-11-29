@@ -63,6 +63,7 @@ I dati raccolti mediante i dispositivi saranno rielaborati da app e software all
 ## 4. Hardware & Software requirements ##
 
 | Juicy Apples | 1.99      | *7*        |
+|--------------|-----------|------------|
 | Bananas      | **1.89**  | 5234       |
 
 ### Tablet
