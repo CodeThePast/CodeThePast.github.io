@@ -75,9 +75,7 @@ I dati raccolti mediante i dispositivi saranno rielaborati da app e software all
 | modello             | Galaxy Note 4, 3 o 3 Neo ­ ottima portabilità, resistenza e peso, multi touch­screen, batteria ad alte prestazioni, GPS, connettività wi­fi + 4G LTE |
 |---|---|
 | quantità            | 5 smartphone |
-|---|---|
 | accessori           | batterie aggiuntive, caricabatterie, rugged case, stylus pens di riserva |
-|---|---|
 | destinazione        | sito archeologico (comunicazione, documentazione, controllo drone) |
 
 ### Laptop
