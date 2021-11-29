@@ -62,6 +62,11 @@ I dati raccolti mediante i dispositivi saranno rielaborati da app e software all
 
 ## 4. Hardware & Software requirements ##
 
+| Item         | Price     | # In stock |
+|--------------|-----------|------------|
+| Juicy Apples | 1.99      | *7*        |
+| Bananas      | **1.89**  | 5234       |
+
 ### Tablet
 | modello             | Galaxy Tab Pro 10.1” o 8.4” ­ ottima portabilità, resistenza e peso, multi touch­screen, batteria ad alte prestazioni, GPS, connettività wi­fi + 4G LTE
 | quantità            | 10 tablet accessori alimentatori, rugged case, stylus pens, tastiere esterne destinazione sito archeologico (scavo e visite guidate), laboratorio restauro, museo
