@@ -8,7 +8,7 @@ A selection of projects and ideas around technology and programming, and their a
 
 [Data Analysis]() for Cultural Heritage.
 
-[Tech solution for impaired people]() in museums.
+[Tech solutions for impaired people]() in museums.
 
 [GIS processing]() notebook.
 
