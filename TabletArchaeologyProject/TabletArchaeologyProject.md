@@ -115,6 +115,7 @@ sviluppare nuove app e processi tecnologici.
 ![TAP Architecture 1](https://codethepast.github.io/TabletArchaeologyProject/TAP_architecture1.jpg)
 
 ![TAP Architecture 2](https://codethepast.github.io/TabletArchaeologyProject/TAP_architecture2.jpg)
+
 Due possibili configurazioni dei dispositivi per l’uso sul campo, con o senza connessione internet.
 
 
