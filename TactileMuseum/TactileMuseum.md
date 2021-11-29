@@ -47,12 +47,12 @@ Gli allestimenti museali integrati curati da Archeologia Tattile saranno caratte
 **Guanto multimediale.** L’uso di un guanto di nuova concezione permetterà l’attivazione delle audioguide tramite la lettura dei chip NFC integrati negli oggetti esposti.
 
 Alcune immagini del progetto di allestimento:
-![AT1](https://codethepast.github.io/TabletArchaeologyProject/ArcheologiaTattile1.png)
-![AT2](https://codethepast.github.io/TabletArchaeologyProject/ArcheologiaTattile2.png)
-![AT3](https://codethepast.github.io/TabletArchaeologyProject/ArcheologiaTattile3.png)
-![AT4](https://codethepast.github.io/TabletArchaeologyProject/ArcheologiaTattile4.png)
-![AT5](https://codethepast.github.io/TabletArchaeologyProject/ArcheologiaTattile5.png)
-![AT6](https://codethepast.github.io/TabletArchaeologyProject/ArcheologiaTattile6.png)
+![AT1](https://codethepast.github.io/TactileMuseum/ArcheologiaTattile1.png)
+![AT2](https://codethepast.github.io/TactileMuseum/ArcheologiaTattile2.png)
+![AT3](https://codethepast.github.io/TactileMuseum/ArcheologiaTattile3.png)
+![AT4](https://codethepast.github.io/TactileMuseum/ArcheologiaTattile4.png)
+![AT5](https://codethepast.github.io/TactileMuseum/ArcheologiaTattile5.png)
+![AT6](https://codethepast.github.io/TactileMuseum/ArcheologiaTattile6.png)
 
 
 ## Organizzazione
@@ -60,7 +60,7 @@ Tutte le attività del progetto verranno ideate e realizzate dal Gruppo Archeolo
 
 Archeologia Tattile prevede la cooperazione tra gli Enti preposti, le associazioni di settore e prestigiosi partner nazionali ed internazionali. Molteplici professionalità saranno dedicate ai vari aspetti del progetto, dalla progettazione, alla realizzazione alla promozione. Tra le collaborazioni e i patrocini già in essere citiamo: Unione Italiana Ciechi e Ipovedenti (UICI), Regione Lazio (BIC), Soprintendenza Archeologia.
 
-![ArSen logo](https://codethepast.github.io/TabletArchaeologyProject/arsen_logo.JPG)
+![ArSen logo](https://codethepast.github.io/TactileMuseum/arsen_logo.JPG)
 
 
 [< back](https://codethepast.github.io/)
