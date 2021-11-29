@@ -84,7 +84,7 @@ quantità            2 fotocamere
 accessori           caricabatteria
 destinazione        sito archeologico e laboratorio restauro
 
-## Applicazioni che verranno utilizzate
+### Applicazioni che verranno utilizzate
 archiviazione       Google Drive
 scrittura           GoogleDoc, Snote, Evernote
 moduli              Google Form
