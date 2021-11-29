@@ -63,14 +63,14 @@ I dati raccolti mediante i dispositivi saranno rielaborati da app e software all
 ## 4. Hardware & Software requirements ##
 
 ### Tablet
-modello     Galaxy Tab Pro 10.1” o 8.4” ­ ottima portabilità, resistenza e peso, multi touch­screen, batteria ad alte prestazioni, GPS, connettività wi­fi + 4G LTE
-quantità    10 tablet accessori alimentatori, rugged case, stylus pens, tastiere esterne destinazione sito archeologico (scavo e visite guidate), laboratorio restauro, museo
+modello             | Galaxy Tab Pro 10.1” o 8.4” ­ ottima portabilità, resistenza e peso, multi touch­screen, batteria ad alte prestazioni, GPS, connettività wi­fi + 4G LTE
+quantità            | 10 tablet accessori alimentatori, rugged case, stylus pens, tastiere esterne destinazione sito archeologico (scavo e visite guidate), laboratorio restauro, museo
 
 ### Smartphone  
-modello       Galaxy Note 4, 3 o 3 Neo ­ ottima portabilità, resistenza e peso, multi touch­screen, batteria ad alte prestazioni, GPS, connettività wi­fi + 4G LTE
-quantità      5 smartphone
-accessori     batterie aggiuntive, caricabatterie, rugged case, stylus pens di riserva
-destinazione  sito archeologico (comunicazione, documentazione, controllo drone)
+modello             | Galaxy Note 4, 3 o 3 Neo ­ ottima portabilità, resistenza e peso, multi touch­screen, batteria ad alte prestazioni, GPS, connettività wi­fi + 4G LTE
+quantità            | 5 smartphone
+accessori           | batterie aggiuntive, caricabatterie, rugged case, stylus pens di riserva
+destinazione        | sito archeologico (comunicazione, documentazione, controllo drone)
 
 ### Laptop
 modello             Ativ Book 9 Plus o simile ­ ottima portabilità, resistenza e peso, batteria ad alte prestazioni
