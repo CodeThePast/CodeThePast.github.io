@@ -59,6 +59,48 @@ I dati raccolti mediante i dispositivi saranno rielaborati da app e software all
 
 **Applicazione di standard.** ​I dispositivi mobili, integrati con app progettate e sviluppate ad hoc, consentiranno la mappatura dei dati archeologici raccolti durante le attività sul campo su un’ontologia riconosciuta a livello internazionale, quale il CIDOC­CRM. Le ontologie consentono un'efficiente integrazione e un agevole scambio dei dati esprimibili attraverso modelli standard (RDF/XML) previsti dal World Wide Web Consortium (W3C, ​link​). Il CIDOC­CRM (Conceptual Reference Model, ​link​) è un’ontologia formale intesa a facilitare l’integrazione e lo scambio di informazioni eterogenee nell’ambito dei Beni Culturali. Sviluppata dall’International Council of Museums (ICOM) a partire dal 1996, diventata Standard ISO internazionale nel 2006 (21127:2006). Il TAP è concepito per creare un’integrazione hardware­software applicabile universalmente, con ogni condizione di connessione internet.
 
+
+## 4. Hardware & Software requirements ##
+
+### Tablet
+modello     Galaxy Tab Pro 10.1” o 8.4” ­ ottima portabilità, resistenza e peso, multi touch­screen, batteria ad alte prestazioni, GPS, connettività wi­fi + 4G LTE
+quantità    10 tablet accessori alimentatori, rugged case, stylus pens, tastiere esterne destinazione sito archeologico (scavo e visite guidate), laboratorio restauro, museo
+
+### Smartphone  
+modello       Galaxy Note 4, 3 o 3 Neo ­ ottima portabilità, resistenza e peso, multi touch­screen, batteria ad alte prestazioni, GPS, connettività wi­fi + 4G LTE
+quantità      5 smartphone
+accessori     batterie aggiuntive, caricabatterie, rugged case, stylus pens di riserva
+destinazione  sito archeologico (comunicazione, documentazione, controllo drone)
+
+### Laptop
+modello             Ativ Book 9 Plus o simile ­ ottima portabilità, resistenza e peso, batteria ad alte prestazioni
+quantità            2 laptop
+accessori           alimentatori, rugged case, mouse 
+destinazione        laboratorio restauro, museo, ma soprattutto sito archeologico, dove il laptop verrà utilizzato ­in associazione con un router, un wireless ethernet bridge e uno smartphone­ per costituire una “rete locale” cui collegare i dispositivi mobili
+
+### Fotocamere
+modello             Galaxy camera 2
+quantità            2 fotocamere
+accessori           caricabatteria
+destinazione        sito archeologico e laboratorio restauro
+
+## Applicazioni che verranno utilizzate
+archiviazione       Google Drive
+scrittura           GoogleDoc, Snote, Evernote
+moduli              Google Form
+database            HanDBase
+disegno e rilievo   AutoCAD 360, Skedio, ScribMaster, ScketchBook for Galaxy, Théodolite Droid
+diagrammi           DrawExpress
+fotografia          built­in camera, album foto Samsung
+lettore pdf         Adobe Acrobat
+controllo drone     app da sviluppare (Flone ­ l ​ink ​)
+
+Per completare la suite delle applicazioni disponibili nei market Galaxy e GooglePlay, sarà
+necessario sviluppare alcune applicazioni personalizzate. Rofalco e in particolare Prisma, oltre a
+disporre di risorse e competenze interne, vantano consolidate collaborazioni con media partner
+che potrebbero aiutare su tale aspetto. Inoltre, grazie al supporto di Samsung sarà possibile
+sviluppare nuove app e processi tecnologici.
+
 ![TAP Architecture 1](https://codethepast.github.io/TabletArchaeologyProject/TAP_architecture1.jpg)
 
 ![TAP Architecture 2](https://codethepast.github.io/TabletArchaeologyProject/TAP_architecture2.jpg)
