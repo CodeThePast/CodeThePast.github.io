@@ -183,7 +183,7 @@ The prompt will say "SeaBIOS" (if you don't get the BIOS then press CTRL + L) an
 
 Press the number corresponding to your bootable USB. For Ubuntu should be called "Live Linux USB Drive" (there might be some other options that belong to different partitions of the bootable usb), while the eMMC should be the Chromebooks internal HD. If there are problems you can type "help" at the boot: so to access the Installation System for Ubuntu, then press enter.
 
-Now Ubuntu live desktop will boot. From the desktop you can click the install icon to finalize Ubuntu. At the "Welcome" window, select the language and "install Ubuntu". At the "Wireless" box, accept the default selection of "I don't want to connect..." and click Continue, or connect to a wifi in order to download more recent updates. Accept the default selections and click Continue at the "Preparing to install Ubuntu" screen.
+Now Ubuntu live desktop will boot. From the desktop you can click the install icon to finalize Ubuntu. At the "Welcome" window, select the language and "install Ubuntu". At the "Wireless" box, accept the default selection of "I don't want to connect..." and click Continue, or connect to a wifi in order to download more recent updates. Accept the default selections and click Continue at the "Preparing to install Ubuntu" screen. I personally choos the basic installation without updates.
 
 When the "Installation type" box appears, click the "Erase disk and install Ubuntu" button. Click "Install Now".
 
