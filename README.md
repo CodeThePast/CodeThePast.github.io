@@ -4,7 +4,7 @@ A selection of projects and ideas around technology and programming, and their a
 
 [Ubuntu installation](https://codethepast.github.io/UbuntuOnChromebook/UbuntuOnChromebook) on a 9 years old Chromebook.
 
-[Smartwatch app]() for the opensource [*PineTime*](https://wiki.pine64.org/index.php/PineTime).
+[Smartwatch app](https://codethepast.github.io/PineTimeProject/PineTime) for the opensource [*PineTime*](https://wiki.pine64.org/index.php/PineTime).
 
 [Data Analysis]() for Cultural Heritage.
 
