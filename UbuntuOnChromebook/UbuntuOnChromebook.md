@@ -194,7 +194,7 @@ After 5 to 10 minutes you will be asked to remove the installation pendrive and 
 When the machine restarts, press Esc and select option 1 (the only available) and you will finally have Ubuntu! 
 (if the ChromeOS page with the red esclamation mark appears again, press CTRL + D, or CTRL + L > scape > 1 and repeat as before, it should work).
 
-Now I have Linux on my Chromebook, Ubuntu 20.08 LTS works smoothly and also the touchscreen is functioning!
+Now I have Linux on my Chromebook, Ubuntu 20.04.3 LTS works smoothly and also the touchscreen is functioning!
 
 
 ## Other Linux distros
