@@ -141,7 +141,7 @@ $ sudo delete-chroot evilchroot
 
 If you don't want to use ChromeOS at all, you can replace the OS entirely with Ubuntu (or another operating system). It is a bit more tricky, but doable.
 
-**Note that the touch screeen might not function properly (or at all)** or that you have to jump through some hoops in order to get it work.
+**Note that the touch screeen might not function properly (or at all)** or that you have to jump through some hoops in order to get it work. In my case, at the end of the process, I got a perfectly functioning touchscreen without doing anything special: Ubuntu installer was able to manage it by itself.
 
 There are a few online resources that can help you in the process, for example:
 - An extended [blogpost](https://samsclass.info/128/proj/chromebooks3.htm) by *Sam Bowne* explaining the all process of installation of Ubuntu 15.04.
@@ -192,7 +192,9 @@ After a minute or so, a box will ask "Write the changes to disks?". Click Contin
 After 5 to 10 minutes you will be asked to remove the installation pendrive and press Enter.
 
 When the machine restarts, press Esc and select option 1 (the only available) and you will finally have Ubuntu! 
-(if the ChromeOS page with the red esclamation mark appears again, press CTRL + D, or CTRL + L > scape > 1 and repeat as before, it should work). 
+(if the ChromeOS page with the red esclamation mark appears again, press CTRL + D, or CTRL + L > scape > 1 and repeat as before, it should work).
+
+Now I have Linux on my Chromebook, Ubuntu 20.08 LTS works smoothly and also the touchscreen is functioning!
 
 
 ## Other Linux distros
