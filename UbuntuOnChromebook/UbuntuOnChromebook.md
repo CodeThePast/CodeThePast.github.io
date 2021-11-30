@@ -167,7 +167,7 @@ To Enable Developer BIOS and USB Boot, **do NOT log in** to ChromeOS. Press CTRL
 
 Execute the following commands:
 ```
-$ shell
+$ shell                          <--- this line is actually not needed...
 $ sudo crossystem dev_boot_usb=1
 $ sudo crossystem dev_boot_legacy=1
 $ sudo /usr/share/vboot/bin/set_gbb_flags.sh 0x489
@@ -179,7 +179,7 @@ Hold down the power button (or type "sudo poweroff") to turn the Chromebook off.
 
 Insert the Ubuntu bootable USB pendrive and turn the power on again.
 
-The prompt will say "SeaBIOS" (if you don't get the BIOS then press CTRL + L) and "Press ESC for boot menu", so press Esc. 
+The prompt will say "SeaBIOS" (if you don't get the BIOS then press CTRL + L) and "Press ESC for boot menu", so press Esc. Im my case I didn't have to do anything as the Ubuntu launcher activeted authomatically without doing the following procedure, anyway I found online that in some cases you will have to do as follows.
 
 Press the number corresponding to your bootable USB. For Ubuntu should be called "Live Linux USB Drive" (there might be some other options that belong to different partitions of the bootable usb), while the eMMC should be the Chromebooks internal HD. If there are problems you can type "help" at the boot: so to access the Installation System for Ubuntu, then press enter.
 
