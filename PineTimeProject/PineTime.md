@@ -1,6 +1,7 @@
 ## Smartwatch app for the opensource PineTime.
 
 [< back](https://codethepast.github.io/)
+
 A few weeks ago I bought my first [PineTime](https://wiki.pine64.org/index.php/PineTime), with the dev kit.
 In order to practice with coding I decided to program an app for this open source smartwatch.
 
@@ -14,6 +15,8 @@ Let's see how it works.
 
 ## Android ToDoLister app
 To make the android app I used the easy platform of [App Inventor](https://appinventor.mit.edu/) by MIT.
+
+With App Inventor you can create your app and download it as an .aia (compressed) folder) or build it and download as an  
 
 
 
